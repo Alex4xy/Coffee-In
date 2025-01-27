@@ -4,3 +4,24 @@
 /.idea/libraries
 .DS_Store
 /build
+
+# Ignore Gradle files
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore Android Studio generated files
+local.properties
+
+
+# Ignore Gradle cache
+**/build/
+!gradle-wrapper.jar/
+#if * xml
+_.sha
