@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#e91e63</color>
+    <color name="primaryColorDark">#c2185b</color>
+    <color name="black">#CC000000</color>
+    <color name="white">#E6FFFFFF</color>
+    <color name="black_text">#000000</color>
+
+    <color name="primary">#3f51b5</color>
+    <color name="primary_pressed">#303f9f</color>
+    <color name="ripple">#ff80ab</color>
+    <color name="accent">#ff4081</color>
+    <color name="accent_pressed">#f50057</color>
+
+    <color name="item_background">#80bebebe</color>
+    <color name="text_color">#FFFFFF</color>
+    <color name="actionbar">#FFFFFF</color>
+
+</resources>

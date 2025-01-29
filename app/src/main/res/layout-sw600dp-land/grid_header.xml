@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="@color/item_background"
+            android:layout_margin="0.5dp"
+            android:id="@+id/headerGridImage"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/headerGridRecipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Espresso"
+            android:gravity="center"
+            android:layout_alignBottom="@id/headerGridImage"
+            android:layout_alignLeft="@id/headerGridImage"
+            android:layout_alignStart="@id/headerGridImage"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="sans-serif"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:textColor="@color/text_color"/>
+
+</RelativeLayout>

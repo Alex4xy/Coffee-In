@@ -1,0 +1,3214 @@
+[
+    {
+      "id": 0,
+      "coffee": "Death by Chocolate",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/deathbychocolate.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoon  vanilla flavoured syrup
+
+  - 1/4 cup espresso or 1/2 cup strong coffee
+
+  - 3/4 cup chocolate milk (Milk may vary depending on size of coffee mug)
+
+  - Chocolate Reddi-wip topping (canned whipped cream)
+
+  - Candy sprinkles, any color
+
+  - Chocolate shavings
+
+Directions:
+
+  1. First pour the vanilla syrup into a large coffee mug.
+
+  2. Next add your fresh brewed coffee to the vanilla syrup and mix the two ingredients together.
+
+  3. Then steam your chocolate milk to 160 degrees F.
+
+  4. You can use a beverage or candy thermometer to test the temperature of the milk.
+
+  5. Once milk has been steamed add it to you coffee.
+
+  6. Finally, top your cappuccino with the whipped cream to your desired amount.
+
+  7. Add sprinkles and chocolate for decoration."
+
+    },
+
+	{
+      "id": 1,
+      "coffee": "Mocha Mint",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/mochamint.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup coffee (cold)
+
+  - 1/4 cup chocolate ice cream
+
+  - Less than 1/8 cup creme de menthe
+
+  - chocolate mint wafers (optional)
+
+  - chocolate shavings (optional)
+
+Directions:
+
+  1. Combine coffee, ice cream and creme de menthe in blender container and blend on low speed.
+
+  2. Spoon into sherbet or wine glasses and garnish the serving with chocolate mint wafer or shaved chocolate."
+
+    },
+
+	{
+      "id": 2,
+      "coffee": "Espresso/Ristretto",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/espresso.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/8 cup ground espresso
+
+  - 1/4 cup hot water
+
+Directions:
+
+  1. Get your grind as fine as possible for the machine you are using.
+
+  2. Tamp as usual.
+
+  3. Start your extraction and let it run until you have 15ml of coffee."
+
+    },
+
+	{
+      "id": 3,
+      "coffee": "Almond Cappuccino",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/almondcappuccino.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoon amaretto syrup
+
+  - 2 tablespoon almond syrup
+
+  - 2 shots espresso,
+
+  - steamed milk
+
+  - whipped cream
+
+  - almonds, finely chopped, toasted, for garnish (optional)
+
+Directions:
+
+  1. In a 12-ounce cup, combine syrups and espresso.
+
+  2. Fill cup with steamed milk and top with whipped cream.
+
+  3. Garnish with chopped almonds if desired.
+
+  4. Serve immediately."
+
+    },
+
+	{
+      "id": 4,
+      "coffee": "Cappuccino",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cappuccino.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 cup skim milk
+
+  - 1/2 teaspoon sugar
+
+  - 3/4 cup strong brewed coffee or espresso
+
+Directions:
+
+  1. After your coffee has brewed, combine the sugar and milk and heat it in your microwave for 2 minutes at the highest setting.
+
+  2. Next, whip the heated milk/sugar mix in your blender for about one minute until it's a fluffy foam.
+
+  3. Fill your cup two thirds full with the coffee and top it off with your heated froth."
+
+    },
+
+	{
+      "id": 5,
+      "coffee": "Espresso Con Panna",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/espressoconpanna.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 shot espresso
+
+  - whipped cream
+
+Directions:
+
+  1. Top cup of espresso with a dallop of whipped cream."
+
+    },
+
+	{
+      "id": 6,
+      "coffee": "Espresso Macchiato",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/espressomacchiato.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 shot espresso
+
+  - frothed milk
+
+Directions:
+
+  1. Serve espresso in a demitasse cup and top with a dollop of the frothed milk."
+
+    },
+
+	{
+      "id": 7,
+      "coffee": "Iced Americano",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/icedamericano.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 shot espresso
+
+  - 1 cup cold water
+
+  - sugar
+
+Directions:
+
+  1. Combine in a glass with ice."
+
+    },
+
+	{
+      "id": 8,
+      "coffee": "Mocha Coffee",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/mocha.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup brewed coffee, espresso or strong instant
+
+  - 1 tablespoon unsweetened cocoa powder
+
+  - 1 tablespoon white sugar
+ 
+  - 2 tablespoon milk
+
+Directions:
+
+  1. Combine the cocoa powder, sugar, and salt in your mug and add 2 Tablespoons of hot water. Stir until dissolved. It makes a syrup. Set mug aside.
+
+  2. Measure out your espresso roast.
+
+  3. When your espresso is finished brewing according to the machine instructions, you can pour about half of it into your mug and stir really well. If you don't want to steam your milk, you can add the milk at this point and just microwave to the temperature you want it to be.
+  
+  4. Place the cup of milk under the frothing tip, making sure it doesn't touch the bottom of your cup. Slowly turn the steam application on and watch your milk steam.
+  
+  5. Add your milk and then the rest of the espresso to the mug and stir well. You can also add in a Tablespoon of flavored syrup for an extra punch of flavor.
+  
+  6. Top the whole thing off with some whipped cream and chocolate syrup. Caramel can be fun too."
+
+    },
+
+	{
+      "id": 9,
+      "coffee": "Coffee Calypso",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/calypso.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoons dark Creme de Cacao
+
+  - 1 teaspoon dark brown sugar
+
+  - 1/2 cup hot coffee
+ 
+  - 2 tablespoons whipping cream
+ 
+  - 1/2 teaspoon instant coffee granules
+
+Directions:
+
+  1. Into a mug pour creme de cacao then add sugar and coffee. Stir well.
+
+  2. Pouring the whipping cream slowly over the back of a teaspoon, float the cream on top of the coffee.
+
+  3. Sprinkle the coffee granules on top and serve immediately."
+
+    },
+
+	{
+      "id": 10,
+      "coffee": "Affogato",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/affogato.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 scoop premium vanilla ice cream
+
+  - 1 shot fresh- brewed espresso
+
+  - 1 teaspoon brandy (optional)
+ 
+  - 1/2 teaspoon sugar (optional)
+
+Directions:
+
+  1. Put the scoop of ice cream in a pretty glass, bowl or coffee cup.
+
+  2. Combine the hot espresso with the brandy and sugar and pour over ice cream.
+
+  3. Serve immediately."
+
+    },
+
+	{
+      "id": 11,
+      "coffee": "Macchiato",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/macchiato.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 shot espresso
+
+  - 2 tablespoon milk (foam, from steamed milk)
+
+Directions:
+
+  1. serve espresso in a small espresso cup with the foam on top."
+
+    },
+
+	{
+      "id": 12,
+      "coffee": "Latte Macchiato",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/lattemacchiato.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup milk (no fat-reduced product)
+
+  - 1 1/2 tablespoons instant espresso coffee powder, heaped
+
+Directions:
+
+  1. Heat milk in the microwave or in a saucepan over medium-high heat (do not boil).
+
+  2. In the meantime prepare instant espresso.
+
+  3. As soon as the milk is hot give it into a blender or food processor and blend on high for 40 seconds or until the milk has a velvety milk foam.
+
+  4. Fill glasses up to 2/3 with milk foam.
+
+  5. Pour hot espresso very slowly into the foam.
+
+  6. You can turn a spoon around and pour the espresso slowly over its back side.
+ 
+  7. After 1 minute the drink will divide in 3 layers. "
+
+    },
+
+	{
+      "id": 13,
+      "coffee": "Cafe Creme",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cafecreme.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 cup whole milk
+
+  - 1/2 cup strong coffee
+
+Directions:
+
+  1. Make strong coffee, preferably in a funky French coffee pot.
+
+  2. Heat whole milk and froth it.
+
+  3. Spoon on the froth and pour in some of the more liquid milk.
+
+  4. Drink piping hot."
+
+    },
+
+	{
+      "id": 14,
+      "coffee": "Black eye",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/blackeye.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup coffee strong
+
+  - 1 shot espresso
+
+Directions:
+
+  1. Fill cup with coffee, leaving enough room for espresso
+
+  2. Add espresso on top."
+
+    },
+
+	{
+      "id": 15,
+      "coffee": "Cafe Bombon",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/bombon.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - Espresso shot
+
+  - Sweetened condensed milk (equal amount to espresso)
+
+Directions:
+
+  1. Fill cup with sweetened condensed milk.
+
+  2. Extract espresso shots onto top of condensed milk to create layering effect."
+
+    },
+
+{
+      "id": 16,
+      "coffee": "Green eye",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/greeneye.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 3 Espresso shot
+
+Directions:
+
+  1. Fill cup with 3 espresso shot.
+
+  2. Do not drink if you have heart condition or road rage issues."
+
+    },
+
+{
+      "id": 17,
+      "coffee": "Vienna Coffee",
+      "type": "classics",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/vienna.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup instant coffee
+
+  - 1 tablespoon sugar
+
+  - 1/4 cup nonfat dry milk powder
+
+  - 1/2 teaspoon cinnamon
+
+Directions:
+
+  1. Stir instant coffee, sugar, dry milk powder and cinnamon together.
+
+  2. Process in a blender until powdered.
+
+  3. Use 2 teaspoons to one cup of hot water."
+
+    },
+
+     {
+      "id": 18,
+      "coffee": "Frozen Caramela Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/frozencaramellatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/3 cup brewed espresso
+
+  - 1 tablespoon caramel sauce
+
+  - 2 tablespoons white sugar
+
+  - 3/4 cup milk
+
+  - 1 1/2 cups ice cubes
+
+  - 2 tablespoons whipped cream
+
+Directions:
+
+  1. Shake all ingredients with ice.
+
+  2. Top with whipped cream and caramel drizzle."
+    
+     },
+
+      {
+      "id": 19,
+      "coffee": "Gingerbread Latte",
+      "type": "lattes",
+       "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/gingerbreadlatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup espresso
+
+  - 2 tablespoon flavored syrup (gingerbread)
+
+  - 1/2 cup milk (steamed)
+
+  - 1/8 cup whipped cream
+
+  - 1 pinch ground nutmeg
+
+  - 1 pinch ground cinnamon
+
+  - 1/2 teaspoon vanilla powder
+
+Directions:
+
+  1. In a coffee mug, combine espresso coffee with flavored syrup. 
+
+  2. Pour in steamed milk.
+
+  3. Top with whipped cream, and sprinkle with nutmeg, cinnamon, and vanilla powder."
+    
+     },
+
+ {
+      "id": 20,
+      "coffee": "Milkshake Latte",
+      "type": "lattes",
+       "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/milkshakelatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 3/4 cup cold coffee
+
+  - 1 scoop vanilla ice cream
+
+  - 1 tablespoon chocolate syrup
+
+Directions:
+
+  1. In a blender, combine cold coffee, ice cream and chocolate syrup. Blend until smooth. Pour into glasses and serve."
+    
+     },
+
+ {
+      "id": 21,
+      "coffee": "Brown Sugar Caramel Latte",
+      "type": "lattes",
+       "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/brownsugarcaramellatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon brown sugar
+
+  - 1/4 cup half & half
+
+  - 1 tablespoon caramel ice cream topping
+
+  - 3/4 cup brewed coffee
+
+Directions:
+
+  1. Stir brown sugar into half-and-half until dissolved.
+
+  2. Whip with a milk frother or small whisk. 
+
+  3. Pour coffee into a mug, and stir in caramel sauce until dissolved.
+
+  4. Pour frothed half-and-half into coffee, and serve."
+    
+     },
+
+ {
+      "id": 22,
+      "coffee": "Amaretto Latte",
+      "type": "lattes",
+       "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/amaretolatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 shot espresso
+
+  - 1 tablespoons Amaretto Syrup
+
+  - 1/2 cup steamed milk
+
+Directions:
+
+  1. Combine ingredients, except milk, in serving cup.
+
+  2. Stir and set aside.
+
+  3. Steam milk in pitcher.
+
+  4. Pour steamed milk into serving cup, stirring gently.
+	
+  5. Garnish."
+    
+     },
+
+ {
+      "id": 23,
+      "coffee": "Creme Caramel Latte",
+      "type": "lattes",
+       "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cremecaramellatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon vanilla-flavored syrup
+
+  - 1 teaspoon caramel syrup
+
+  - 1 shot espresso
+
+  - steamed milk
+
+Directions:
+
+  1. Combine ingredients in a big mug.
+
+  2. Mix well."
+    
+     },
+
+ {
+      "id": 24,
+      "coffee": "Hazelnut Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/hazelnutlatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon hazelnut syrup
+
+  - 1 teaspoon almond syrup
+
+  - 1 cup freshly brewed espresso
+
+Directions:
+
+  1. Combine ingredients in a big mug.
+
+  2. Mix well."
+    
+     },
+
+{
+      "id": 25,
+      "coffee": "Irish Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/irishlatte.jpeg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon cinnamon syrup
+
+  - 1 tablespoon irish cream syrup
+
+  - 1/2-1/3 cup freshly brewed espresso
+
+Directions:
+
+  1. Combine ingredients in a big mug."
+    
+     },
+
+{
+      "id": 26,
+      "coffee": "Raspberry Amaretto Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/raspberyamaretolatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon raspberry flavored syrup
+
+  - 1 teaspoon amaretto syrup
+
+  - 1 shot espresso
+
+  - steamed milk
+
+Directions:
+
+  1. Combine ingredients in a big mug.
+
+  2. Mix well."
+    
+     },
+
+{
+      "id": 27,
+      "coffee": "White Chocolate Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/whitechocolatelatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 cup milk
+
+  - 1/4 cup half-and-half
+
+  - 1/4 cup white chocolate chips
+
+  - 1/2 tablespoon instant coffee granules
+ 
+  - 1/4 teaspoon vanilla extract
+ 
+  - 1/16 teaspoon almond extract
+ 
+  - 1/4 to taste whipped cream
+
+  - 1/4 to taste cinnamon stick
+
+Directions:
+
+  1. Stir first 4 ingredients together in a small saucepan over low heat until white chocolate morsels are melted. 
+
+  2. Stir in vanilla and almond extracts.
+
+  3. Pour evenly into mug. 
+
+  4. Top with whipped cream and garnish with cinnamon sticks."
+    
+     },
+
+{
+      "id": 28,
+      "coffee": "Chocolate Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/chocolatelatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup coffee strong brewed
+
+  - 1/4 cup half & half
+
+  - Less than 1/8 cup chocolate syrup
+
+  - 1/3 tablespoon sugar
+ 
+  - Less than 1/8 teaspoon vanilla extract
+
+Directions:
+
+  1. Cook coffee, half-and-half, chocolate syrup, sugar, and vanilla in a medium saucepan over medium-low heat, stirring often, 5 minutes or until thoroughly heated."
+    
+     },
+
+{
+      "id": 29,
+      "coffee": "Cinnamon Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cinnamonlatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 3/4 cup coffee strong brewed
+
+  - 1/4 cup cream, half & half
+
+  - 1/8 cup sugar
+
+  - 1/8 teaspoon vanilla
+ 
+  - 1/3 cinnamon sticks (plus additional for garnish)
+ 
+  - whipped cream
+
+Directions:
+
+  1. Blend coffee, half-and-half, sugar, and vanilla in a slow cooker. 
+
+  2. Add cinnamon sticks and cook on high for 3 minutes.
+
+  2. Remove cinnamon sticks. Serve latte in tall coffee mugs with dollop of whipped cream and cinammon sticks if desired."
+    
+     },
+
+{
+      "id": 30,
+      "coffee": "Cafe Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cafelatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 cup  cold milk
+
+  - 1/3 cup espresso or strong coffee
+
+Directions:
+
+  1. Heat milk in a saucepan set over medium-low heat.
+
+  2. Whisk briskly with a wire whisk to create foam.
+
+  3. Brew espresso or strong coffee.
+ 
+  4. Pour in milk, holding back the foam with a spoon.
+
+  5. Spoon foam over the top."
+    
+     },
+
+{
+      "id": 31,
+      "coffee": "Eggnog Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/eggnoglatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/3 cup milk
+
+  - 1 cup espresso or strong coffee
+
+  - 3 tablespoons Eggnog Latte flavor
+
+  - Ground nutmeg
+
+Directions:
+
+  1. Place milk in small saucepan. Cook over medium heat, whisking constantly to create foam, until milk is hot.
+
+  2. Using large spoon to hold back foam, pour milk into a mug.
+
+  3. Stir in coffee and eggnog latte flavor.
+ 
+  4. Top with foam and sprinkle of nutmeg."
+    
+     },
+
+{
+      "id": 32,
+      "coffee": "Pumpkin Spiced Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/pumpkinspicedlatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup  whole milk
+
+  - 1 teaspoon white sugar
+
+  - 1/8 teaspoon vanilla extract
+
+  - 1/8 teaspoon pumpkin pie spice
+
+  - 1/4 cup brewed coffee (double-strength)
+
+  - 1 tablespoon cream sweeten whip
+
+  - 1 pinch pumpkin pie spice
+
+Directions:
+
+  1. Combine the hot milk, sugar, vanilla extract, and pumpkin pie spice in a blender. Blend until frothy.
+
+  2. Pour the mixture into coffee mug to about 2/3 full. 
+
+  3. Pour coffee into mug.
+ 
+  4. Garnish each mug with whipped topping and pumpkin pie spice."
+    
+     },
+
+{
+      "id": 33,
+      "coffee": "Coconut Nutella Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/coconutnutelalatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup skim milk
+
+  - 3 tablespoon Nutella
+
+  - 3 tablespoon cream of coconut
+
+  - 1/2 cup brewed coffee (strong)
+
+  - 1/4 cup cool whip
+
+  - sprinkles (optional)
+
+Directions:
+
+  1. In a sauce pan combine the milk and Nutella. Stir until it comes to a small boil. 
+
+  2. Stir in the cream of coconut. 
+
+  3. Remove from the heat and pour into a blender. Pulse for 1-2 minutes or until frothy.
+ 
+  4. Pour milk into a large mug.
+
+  5. Pour coffee carefully into one side without messing up the froth.
+
+  6. Top with Cool Whip and sprinkles before serving."
+    
+     },
+
+{
+      "id": 34,
+      "coffee": "Pepperming Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/peppermintlatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup milk
+
+  - 1/4 cup half-and-half
+
+  - 1/2 tablespoon creme de menthe or 1/2 tablespoon peppermint schnapps
+
+  - 1/2 cup espresso or 1/2 cup strong black coffee
+
+  - 1/2 to taste sugar
+
+Directions:
+
+  1. Bring milk and half and half to hot, but not boiling.
+
+  2. Stir in liquer.
+
+  3. Whisk to make frothy.
+ 
+  4. Divide coffee between two mugs.
+
+  5. Add hot milk to each mug.
+
+  6. Sweeten with sugar to taste.
+
+  7. Top with whipped cream if desired and add a peppermint stick."
+    
+     },
+
+{
+      "id": 35,
+      "coffee": "Maple Latte",
+      "type": "lattes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/maplelatte.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 shot espresso
+
+  - 1 teaspoon maple syrup
+
+  - 1 teaspoon vanilla-flavored syrup
+
+  - 2/3 cup milk, Steamed
+
+Directions:
+
+  1. Add espresso to cup.
+
+  2. Stir in syrups.
+
+  3. Fill with steamed milk and stir.
+ 
+  4. Top with whipped cream and sprinkle with brown sugar."
+    
+     },
+
+    {
+      "id": 36,
+      "coffee": "Raspberry Truffle Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/raspberrytrufflefrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 3 tablespoons ground coffee or 3 tablespoons espresso, dark roast
+
+  - 1/2 cup cold water
+
+  - 2 cups ice cubes
+
+  - 1/2 cup fresh raspberry
+
+  - 1/3 cup chocolate syrup
+
+  - 3 tablespoons sugar
+
+  - 1/2 teaspoon vanilla extract
+
+  - 1/4 cup milk
+
+Directions:
+
+  1. Place paper filter in brew basket along with ground coffee / espresso. Add cold water to fill line.
+
+  2. Place ingredients into blender and mix. 
+
+  3. Serve."
+
+    },
+
+{
+      "id": 37,
+      "coffee": "Frappe Cappuccino",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/frappecappuccino.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 cup strong coffee, espresso if you can
+
+  - 2 cups milk
+
+  - 1/4-1/3 cup sugar
+
+  - 1 1/2 cups ice
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 38,
+      "coffee": "Pumpkin Pie Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/pumpkinspiefrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 1/2 tablespoons ground dark roast coffee or espresso
+
+  - 1/4 cup water
+
+  - 1 cup ice cubes
+
+  - 1/8 cup packed brown sugar
+
+  - 1 1/2 tablespoons canned pumpkin puree
+
+  - 1/4 teaspoon vanilla extract
+
+  - 1/8 teaspoon pumpkin pie spice
+
+  - 1/6 cup evaporated milk or half and halfx
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 39,
+      "coffee": "Cherries Jubilee Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cherriesjubileefrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 1/2 tablespoons ground dark roast coffee or espresso
+
+  - 1/2 cup ice cubes
+
+  - 1/2 cup vanilla ice cream
+
+  - 1/4 cup canned dark sweet cherries, drained
+
+  - 1 tablespoon sugar
+
+  - 1 teaspoon kirsch (optional)
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 40,
+      "coffee": "Caramel Cappuccino Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/caramelcappuccinofrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 3 tablespoons ground coffee or 3 tablespoons espresso, dark roast
+
+  - 1/2 cup cold water
+
+  - 2 cups ice cubes
+
+  - 1/3 cup caramel ice cream topping
+
+  - 1/2 teaspoon vanilla extract
+
+  * 1/4 cup milk
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 42,
+      "coffee": "Peppermint Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/peppermintfrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 1/2 tablespoons ground dark roast coffee or espresso
+
+  - 1/4 cup water
+
+  - 1 cup ice cubes
+
+  - 1/2 tablespoon sugar
+
+  - 1/2 tablespoon crushed red and white candy canes or hard peppermint candies
+
+  - 1/8 cup chocolate syrup
+
+  - 1/8 cup whole or other milk
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 43,
+      "coffee": "Tiramisu Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/tiramisufrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup crescent-shaped ice cubes
+
+  - 1 tablespoon chocolate syrup
+
+  - 1/8 teaspoon vanilla extract
+
+  - 1/8 cup heavy cream
+
+  - 1/8 cup Rum
+
+  - 1/4 cup water
+
+  - 2 tablespoons ground espresso or other dark roast coffee
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 44,
+      "coffee": "Hazelnut Mocha Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/hazelnutmochafrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 1/2 tablespoons ground dark roast coffee or espresso
+
+  - 1/4 cup water
+
+  - 1 cup ice cubes
+
+  - 1 tablespoon sugar
+
+  - 1 1/2 tablespoons hazelnut liqueur or 1/2 teaspoon hazelnut syrup
+
+  - 1 tablespoon chocolate syrup
+
+  - 1/8 teaspoon vanilla extract
+
+  - 1 tablespoon whole or other milk
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 45,
+      "coffee": "Eggnog Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/eggnogfrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 1/2 tablespoons ground dark roast coffee or espresso
+
+  - 1/4 cup water
+
+  - 1 cup ice cubes
+
+  - 1 1/2 tablespoon sugar
+
+  - 1/8 teaspoon vanilla extract
+
+  - 1/3 cup chilled eggnog
+
+  - Pinch of Nutmeg
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 46,
+      "coffee": "Chocolate Caramel Swirl",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/chocolatecaramelswirlfrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/6 cup butterscotch-caramel dessert topping
+
+  - 1 cup crescent-shaped ice cubes
+
+  - 1 1/2 tablespoons hot fudge topping
+
+  - 1/8 teaspoon vanilla extract
+
+  - 1/8 cup whole or other milk
+
+  - 1/4 cup water
+
+  - 1 1/2 tablespoons ground espresso or other dark roast coffee
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 47,
+      "coffee": "Gingerbread Latte Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/gingerbreadlattefrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 1/2 tablespoons ground dark roast coffee or espresso
+
+  - 1/4 cup water
+
+  - 1 cup ice cubes
+
+  - 1 1/2 tablespoons packed brown sugar
+
+  - 1/4 teaspoon vanilla extract
+
+  - 1/8 teaspoon ground ginger
+
+  - 1 pinch ground cinnamon
+
+  - 1 pinch ground cloves
+
+  - 1/6 cup half and half or whole milk
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 48,
+      "coffee": "Mexican Coffee Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/mexicancoffeefrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup crescent-shaped ice cubes
+
+  - 1/8 teaspoon ground cinnamon
+
+  - 1 tablespoon chocolate syrup
+
+  - 1/8 cup Kahlua coffee liqueur
+
+  - 1 tablespoon tequila
+
+  - 1 tablespoon heavy cream
+
+  - 1/4 cup water
+
+  - 1 1/2 tablespoons ground espresso or other dark roast coffee
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 49,
+      "coffee": "Vanilla Cappuccino Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/vanillafrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup crescent-shaped ice cubes
+
+  - 1 1/2 tablespoons sugar
+
+  - 1/4 teaspoon vanilla extract
+
+  - 1/8 cup whole or other milk
+
+  - 1/4 cup water
+
+  - 1 1/2 tablespoons ground espresso or other dark roast coffee
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 50,
+      "coffee": "Frappe Affogato",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/frappeaffogato.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 cup crescent-shaped ice cubes
+
+  - 1 cup vanilla ice cream
+
+  - 1/8 cup milk
+
+  - 1/4 cup water
+
+  - 3 tablespoons ground espresso or other dark roast coffee
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 51,
+      "coffee": "Mississippi Mud Pie Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/mississippimudpiefrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 cup crescent-shaped ice cubes
+
+  - 1 cup cookies and cream ice cream
+
+  - 1/8 cup milk
+
+  - 1/4 cup water
+
+  - 2 tablespoons ground espresso or other dark roast coffee
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+{
+      "id": 52,
+      "coffee": "Mocha Frappuccino",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/mochafrappuccino.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 shots espresso, chilled
+
+  - 1/3 cup milk
+
+  - 1 tablespoon granulated sugar
+
+  - 1 cup ice cubes, large
+
+  - 2 tablespoons chocolate syrup
+
+Directions:
+
+  1. In a blender, add 1 cup of ice cubes, and add 1/3 cup of chilled espresso.
+
+  2. Then add in 1/3 cup of milk, 1 tablespoon of granulated sugar, and 2 tablespoons of chocolate syrup.
+
+  3. Blend for 30 seconds or until smooth.
+
+  4. Put whipped cream on top and garnishing with chocolate syrup."
+
+    },
+
+{
+      "id": 53,
+      "coffee": "Banana Split Mocha Frappe",
+      "type": "frappes",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/bananasplitmochafrappe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup crescent-shaped ice cubes (7 to 8 each)
+
+  - 1 1/2 cups (about 3 scoops) vanilla ice cream
+
+  - 1/2 medium banana, peeled and sliced
+
+  - 1 tablespoon hot fudge topping
+
+  - 1/4 cup milk
+
+  - 1/2 cup water
+
+  - 3 tablespoons ground espresso or other dark roast coffee
+
+Directions:
+
+  1. Combine all ingredients in a blender and blend well."
+
+    },
+
+    {
+      "id": 54,
+      "coffee": "Brazilian Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/braziliancoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup hot cocoa
+
+  - 3/8 cup strong coffee
+
+  - 1/4 cup rum or 1/4 cup brandy
+
+  - 1/8 cup heavy cream whipped with 1 teaspoon sugar
+
+  - 1/4 to taste cinnamon (optional)
+
+Directions:
+
+  1. Heat the chocolate, coffee and brandy or rum together.
+
+  2. Fold in sweetened whipped cream or place a spoonful on top of each serving. If desired, dust top with cinnamon."
+
+    },
+
+ {
+      "id": 55,
+      "coffee": "Cafe Caribe",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cafecaribe.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon fine ground coffee
+
+  - 1/8 teaspoon grated dried orange peel
+
+  - 1/8 teaspoon cinnamon
+
+  - 1/4 pinch piece vanilla bean
+
+  - 1/16 teaspoon ground cloves (or more to taste)
+
+  - 1/4 to taste sugar (optional)
+
+  - 1/4 to taste cream (optional)
+
+Directions:
+
+  1. Blend ingredients well.
+
+  2. Brew by your usual method.
+
+  3. Add sugar and or cream if you like."
+
+    },
+
+{
+      "id": 56,
+      "coffee": "Mediterranean Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/mediterraneancoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup strong coffee
+
+  - 1/16 cup sugar
+
+  - 1/16 cup chocolate syrup (optional)
+
+  - 1/16 teaspoon anise seed (tied in cheesecloth)
+
+  - 2 1/2 cloves
+
+  - 1/2 cinnamon sticks
+
+  - 1/8 to taste whipped cream
+
+  - 1/8 to taste orange twist
+
+  - 1/8 to taste lemon twist
+
+Directions:
+
+  1. Place coffee, sugar, chocolate syrup, anise seed, cloves and cinnamon into a sauce pan
+
+  2. Heat to 200 F degrees over medium heat
+
+  3. Strain into mugs.
+
+  4. Top with whipped cream and twists."
+
+    },
+
+{
+      "id": 57,
+      "coffee": "Cafe Mexicano",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cafemexicano.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 sugar cube
+
+  - 1 shot hot water
+
+  - 3/4 cup coffee
+
+  - 1 shot coffee-flavored liqueur
+
+  - 1 tablespoon whipped cream
+
+Directions:
+
+  1. Pour sugar and hot water into a coffee mug.
+
+  2. Stir in the coffee and liqueur.
+
+  3. Spoon whipped cream gently on top of the coffee."
+
+    },
+
+{
+      "id": 58,
+      "coffee": "Turkish Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/turkishcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup water (demitasse)
+
+  - 1 1/2 teaspoons sugar
+
+  - 1 teaspoon fine ground coffee (not instant)
+
+Directions:
+
+  1. Measure water and sugar in small saucepan. Dissolve the sugar in the water by bringing the mixture to a boil stirring constantly. Remove from heat and stir in coffee. Return to heat and bring slowly back to a boil.
+
+  2. When the coffee begins to rise up remove from heat. When foaming recedes return to heat and bring back to a boil. Repeat this procedure three times . The goal is to get maximum coffee flavor without over boiling. There should be a thick sediment on the bottom and a brown froth on the top.
+
+  3. Best way to Drink: Serve the coffee by pouring gradually into each cup to evenly distribute the sediment."
+
+    },
+
+{
+      "id": 59,
+      "coffee": "Bavarian Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/bavariancoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon peppermint schnapps
+
+  - 1 tablespoon Tia Maria
+
+  - 1 teaspoon sugar (optional)
+
+  - 2/3 cup fresh black coffee
+
+  - 1/3 cup cream
+
+  - whipped cream
+
+Directions:
+
+  1. In a mug stir together the first 4 ingredients.
+
+  2. Float the cream over the coffee by pouring it over the back of a spoon, top with whipped cream."
+
+    },
+
+{
+      "id": 60,
+      "coffee": "Bavarian Mint Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/bavarianmintcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/16 cup non-dairy powdered coffee creamer
+
+  - 1/16 cup sugar
+
+  - 1/16 cup instant coffee
+
+  - 1/4 tablespoon cocoa
+
+  - 5/8 peppermint candies, hard, finely crushed
+
+Directions:
+
+  1. In small bowl combine nondairy creamer, sugar, instant coffee, and cocoa. Set aside.
+
+  2. Finely crush candies in food processor, blender, or with tenderizing mallet. Add to dry mixture.
+
+  3. Store in airtight container and if giving as a gift, include a label that says to use 2 to 2½ teaspoons per cup of boiling water."
+
+    },
+
+{
+      "id": 61,
+      "coffee": "Jamaican Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/jamaicancoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoons dark jamaican rum
+
+  - 2 tablespoons Kahlua
+
+  - 1/2 cup hot coffee
+
+  - whipped cream
+
+  - ground allspice
+
+Directions:
+
+  1. Pour rum and Kahlua into a coffee mug.
+
+  2. Top with hot coffee.
+
+  3. Place a dallop of whipped cream on top and sprinkle with ground allspice.
+
+  4. Serve."
+
+    },
+
+{
+      "id": 62,
+      "coffee": "Irish Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/irishcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 teaspoon sugar
+
+  - 1 tablespoon Irish whiskey
+
+  - 1/2 cup black coffee, made very very strong and hot
+
+  - heavy cream
+
+Directions:
+
+  1. Rinse a stemmed glass with hot water.
+
+  2. Put the sugar in the glass, followed by whiskey.
+
+  3. Add coffee, leaving room for the cream.
+
+  4. Stir thoroughly and let settle, before pouring the cream on top over the back of a spoon so it just floats."
+
+    },
+
+{
+      "id": 63,
+      "coffee": "Cuban Coffee ",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cubancoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup espresso ground coffee
+
+  - 1 tablespoon sugar
+
+Directions:
+
+  1. Brew espresso.
+
+  2. While the coffee is brewing, place the sugar in a tall container with a spout, such as a liquid measuring cup. As soon as the coffee starts to fill the reservoir, pour about 1/2 tablespoon of coffee over the sugar and return the espresso maker to the heat.
+
+  3. Using a spoon, beat the sugar and espresso until the mixture turns a pale beige color and most of the sugar granules begin to dissolve, about 1 minute. The mixture may seem a bit dry at first, but keep beating, and it will come together.
+
+  4. Once all the coffee has been brewed, slowly pour the coffee over the creamed sugar, stirring to make sure all the sugar dissolves. A thin layer of sugar foam (crema) should float on top of the coffee. Pour the coffee into espresso cups and serve immediately."
+
+    },
+
+{
+      "id": 64,
+      "coffee": "Dutch Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/dutchcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/8 cup creme de cacao
+
+  - Less than 1/8 cup creme de menthe
+
+  - 3/4 cup coffee (freshly brewed strong)
+
+  - cream sweeten whip (Lightly, to taste)
+
+  - semisweet chocolate (Grated, for topping)
+
+Directions:
+
+  1. In mug, combine creme de cacao, creme de menthe, coffee, heated if necessary.
+
+  2. Stir the drinks until they are combined well.
+
+  3. Top with a dollop of the whipped cream and sprinkle the whipped cream with the chocolate."
+
+    },
+
+{
+      "id": 65,
+      "coffee": "French Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/frenchcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup whipping cream, chilled (heavy cream)
+
+  - 1/16 cup powdered sugar (confectioners sugar)
+
+  - 1/4 teaspoon vanilla
+
+  - 3/4 cup coffee, hot
+
+Directions:
+
+  1. Beat the cream until it's rich and fluffy, with soft peaks (or use already whipped cream from a can).
+
+  2. Mix in the powdered sugar, and continue to beat until you have stiff peaks.
+
+  3. Put whipped cream in mug.
+
+  4. Add vanilla to the hot coffee, then pour over cream.
+
+  5. Serve right away, Don't stir!"
+
+    },
+
+{
+      "id": 66,
+      "coffee": "German Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/germancoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon cherry brandy
+
+  - 1/2 cup fresh black coffee
+
+  - 1 teaspoon sugar
+
+  - whipped cream
+
+Directions:
+
+  1. Pour the coffee and Cherry brandy into a specialty coffee cup, and add the sugar to sweeten.
+
+  2. Top with whipped cream and an optional cherry."
+
+    },
+
+{
+      "id": 67,
+      "coffee": "Spanish Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/spanishcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon tia maria coffee liqueur
+
+  - 1 tablespoon bacardi rum
+
+  - 1/2 cup hot coffee
+
+  - whipped cream
+
+Directions:
+
+  1. Pour Tia Maria and rum into a coffee mug. Fill with hot coffee.
+
+  2. Top with whipped cream and a cherry.
+
+  3. Sit back and relax."
+
+    },
+
+{
+      "id": 68,
+      "coffee": "Indonesian Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/indonesiancoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon coffee, coarsely ground
+
+  - 1/2 pinch piece ginger, smashed
+
+  - 1/4 cinnamon stick
+
+  - 1/2 tablespoon palm sugar, coarsely chopped
+
+Directions:
+
+  1. Bring coffee, ginger, cinnamon and sugar to a boil in a 2-qt. saucepan with 1 cup water.
+
+  2. Reduce heat to medium; cook, stirring until sugar is dissolved."
+
+    },
+
+{
+      "id": 69,
+      "coffee": "Greek Iced Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/greekicedcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 cup coffee
+
+  - 1/2 cup milk
+
+  - 2 teaspoons honey
+
+  - 1/2 cup crushed ice
+
+Directions:
+
+  1. Blend all ingredients. Serve in a coffee mug."
+
+    },
+
+{
+      "id": 70,
+      "coffee": "Thai Iced Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/thaiicedcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup very strong black regular grind coffee
+
+  - 1 tablespoon sugar
+
+  - 1 tablespoon heavy cream
+
+  - 1/2 teaspoon ground cardamom
+
+  - 1/4 teaspoon almond flavoring
+
+  - 1/4 cup to taste crushed ice
+
+Directions:
+
+  1. Add the cardamom to the ground coffee, and brew the coffee; when the coffee is brewed, add the sugar and almond flavoring, mix well and then let the coffee cool to lukewarm.
+
+  2. Fill highball glass half-way to the rim with crushed ice and then fill two-thirds full with coffee, stir about 1 tablespoon of heavy cream.
+
+  3. To achieve a layered effect, hold a spoon on top of the coffee and pour the cream slowly into the spoon so that the cream floats on top of the glass over the coffee."
+
+    },
+
+{
+      "id": 71,
+      "coffee": "Hawaiian Coffee",
+      "type": "world",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/hawaiiancoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/8 cup ground kona coffee
+
+  - 1 1/ 4 cups water
+
+  - 1/4 cup coconut milk
+
+  - 1/2 tablespoon of grated coconut
+
+Directions:
+
+  1. Brew the coffee and water.
+
+  2. Lightly brown the grated coconut in a saucepan.
+
+  3. Pour the hot coffee and coconut milk into a glass.
+
+  4. Sweeten as/if desired.
+
+  5. Stir.
+
+  6. Top with the toasted grated coconut and serve."
+
+    },
+
+
+{
+      "id": 72,
+      "coffee": "Coffee Whipped Cream",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/coffeewhippedcream.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/3 cup whipping cream
+
+  - 1 1/3 tablespoons coffee beans, whole
+
+  - 2/3 tablespoon confectioners sugar
+
+Directions:
+
+  1. In a bowl combine cream, coffee beans and sugar. Cover and put into the fridge for 24 hours.
+
+  2. After 24 hours, remove the coffee beans from the cream. Whip the cream until stiff and use for garnishing whatever you like with coffee flavour."
+
+    },
+
+{
+      "id": 73,
+      "coffee": "Chocolate Banana Latte",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/chocolatebananalatteshake.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup milk
+
+  - 1/4 cup cold coffee
+
+  - 1/2 banana
+
+  - 1 1/2 tablespoon vanilla ice cream
+
+  - 1 1/2 tablespoon chocolate syrup
+
+  - 1 cup crushed ice
+
+Directions:
+
+  1. Combine all ingredients in a blender, blend until smooth."
+
+    },
+
+{
+      "id": 74,
+      "coffee": "Chestnut-Truffle Cappuccino",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/chestnuttrufflecappuccino.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 tablespoon butter
+
+  - 3/4 shallots (sliced)
+
+  - 3/4 clove garlic (smashed)
+
+  - 1/8 cup chestnut puree (unsweetened or 8 whole chestnuts, roasted and shelled)
+
+  - 1/4 tablespoon black truffles (minced, save a little for garnish)
+
+  - 1/2 cup chicken stock
+
+  - 1/8 cup heavy cream
+
+  - 1/4 teaspoon truffle oil
+
+  - 1/4 cup espresso
+
+Directions:
+
+  1. In a heated saucepan, add butter and saute shallots and garlic until lightly brown, about 3 minutes.
+
+  2. Add chestnuts and truffles and season. Add chicken stock and bring to a simmer.
+
+  3. Reduce by 1/3 and add cream and truffle oil.
+
+  4. Bring back to a simmer and check for seasoning. Transfer to a blender and puree smooth.
+
+  5. Pour the pureed mixture into coffee cup, 2/3 full. Steam like a cappuccino.
+
+  6. Garnish on top with minced truffle and serve immediately"
+
+    },
+
+{
+      "id": 75,
+      "coffee": "Iced Vanilla Coffee",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/icedvanillacoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 teaspoons instant coffee
+
+  - 1 1/2 teaspoons pure vanilla extract
+
+  - sugar (optional)
+
+  - 1 teaspoon left over coffee (optional)
+
+  - 2 teaspoons cold water
+
+  - 1 1/4 cups milk (low fat or other)
+
+  - chocolate shavings (optional)
+
+Directions:
+
+  1. Put the first 5 ingredients into a blender.
+
+  2. Pulse blend until the ingredients are smooth and frothy.
+
+  3. Add the cold milk and pulse blend until all the ingredients are blended well.
+
+  4. Pour of a few cubes of ice, add the chocolate and voula!"
+
+    },
+
+{
+      "id": 76,
+      "coffee": "Kopi susu",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/kopisusu.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 teaspoon instant ground coffee
+
+  - 1 cup soy milk
+
+  - sugar (optional)
+
+  - ground cinnamon
+
+Directions:
+
+  1. Bring soy milk to a boil. 
+
+  2. Add coffee and sugar.
+
+  3. Let simmer for couple minutes. Transfer into a glass and sprinkle ground cinnamon over."
+
+    },
+
+{
+      "id": 77,
+      "coffee": "Buttered Rhumba Coffee",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/butteredrhumbacoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon fine ground coffee
+
+  - 1/16 teaspoon ground nutmeg
+
+  - 1/8 teaspoon butter flavor extract
+
+  - 1/8 teaspoon rum extract
+
+Directions:
+
+  1. Place ground coffee, nutmeg, and extracts in a plastic resealable bag.
+
+  2. Seal and shake well to blend.
+
+  3. To prepare, place the coffee mixture in a paper filter and pour 1 cup hot water through the filter.
+
+  4. Sweeten as you wish."
+
+    },
+
+{
+      "id": 78,
+      "coffee": "Chocolate Gelato Affogato",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/chocolategelatoaffogato.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/16 cup cold heavy cream
+
+  - 1/2 scoop gelato or chocolate or vanilla ice cream
+
+  - 1 cup freshly brewed espresso
+
+  - Kahlua (optional)
+
+  - Crushed espresso beans (optional)
+
+Directions:
+
+  1. Beat cream on high speed until soft peaks form. Remove. Keep cold
+
+  2. Place gelato or ice cream into glass.
+
+  3. Pour 1/2 cups hot espresso over top, just to cover. If you are using Kahlua, pour some now.
+
+  4. Top with whipped cream and sprinkle some amaretti cookie crumbs or crushed espresso beans on top and serve with biscotti."
+
+    },
+
+{
+      "id": 79,
+      "coffee": "Peppermint Mocha Mix",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/peppermintmochamix.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 7/8 cup dry milk
+
+  - 1/8 cup cocoa
+
+  - 1/4 cup sugar
+
+  - 1/8 cup instant coffee
+
+  - 4 1/4 peppermint candies
+
+Directions:
+
+  1. Mix together first four ingredients.
+
+  2. Put the starlight mints into a freezer bag and smash.
+
+  3. When they're mainly powder with a few little pieces of mint, add them to the mix and stir well.
+
+  4. Serve"
+
+    },
+
+{
+      "id": 80,
+      "coffee": "Chilled Coffee",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/chilledcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/2 cup instant coffee
+
+  - 1/16 cup hot milk
+
+  - 1/2 scoop chocolate ice cream
+
+  - 1/2 scoop vanilla ice cream
+
+  - 1/2 scoop cream, whipped
+
+Directions:
+
+  1. Dissolve coffee in hot milk. Let cool.
+
+  2. Blend coffee with chocolate and vanilla ice cream and whipped cream until custard consistency.
+
+  3. Place in punch bowl, chill in deep freeze, if possible.
+
+  4. Before serving, add soft vanilla ice cream in center.
+
+  5. Float whipped cream on top and sprinkle with nutmeg."
+
+    },
+
+{
+      "id": 81,
+      "coffee": "Spiced Orange Coffee",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/spicedorangecoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/16 cup ground coffee
+
+  - 1/8 tablespoon grated orange peel
+
+  - 1/16 teaspoon ground cinnamon
+
+  - 1/16 cup firmly packed brown sugar
+
+  - 3/4 cup cold water
+
+  - 1/8 to taste cinnamon stick
+
+  - 1/8 to taste halved orange slice
+
+Directions:
+
+  1. Place the coffee, orange peel, and cinnamon in the filter in the brew basket of a coffee maker.
+
+  2. Place the brown sugar in the empty pot of the coffee maker.
+
+  3. Prepare the coffee with the cold water.
+
+  4. When the brewing is complete, stir until well mixed.
+
+  5. Pour into large cup or mug.
+
+  6. Serve with cinnamon sticks and halved orange slices, if desired."
+
+    },
+
+{
+      "id": 82,
+      "coffee": "Fireside Coffee",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/firesidecoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup half-and-half
+
+  - 1 unsweetened chocolate square, chopped
+
+  - 1/4 cup hot brewed coffee
+
+  - 1 1/2 tablespoons Bourbon (or add to taste)
+
+  - 1/16-1/8 cup sugar
+
+  - 1/8 cup whipping cream
+
+  - 1/8 teaspoon vanilla extract
+
+  - 1/4 to taste whipped cream
+
+Directions:
+
+  1. In a 2-cup glass measuring cup, microwave the half-and-half on high for 1-2 minutes or until steamy.
+
+  2. Pour over chocolate, let stand 1 minute, and whisk until smooth.
+
+  3. Stir in coffee and next 4 ingredients (stir until sugar is dissolved, may need to heat on stove over low heat to maintain desired drinking temperature).
+
+  4. Serve immediately with whipped cream on top."
+
+    },
+
+{
+      "id": 83,
+      "coffee": "Coffee Jello",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/coffeejello.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 (1/16 ounce) envelopes unflavored gelatin
+
+  - 1/16 cup cold coffee (or Kahlua)
+
+  - 3/8 cup hot coffee
+
+  - 1/16 cup sugar (or up to 3/4 cup according to desired sweetness)
+
+  - 1/8 pinch salt
+
+Directions:
+
+  1. In a large bowl combine gelatin and cold coffee.
+
+  2. Allow to sit 10 minutes to soften.
+
+  3. Add hot coffee, sugar and salt, stir until the sugar is completely dissolved and mixture is clear.
+
+  4. Pour into serving dish and chill till set.
+
+  5. Serve with sweetened whipped cream"
+
+    },
+
+{
+      "id": 84,
+      "coffee": "Autumn-Holiday Coffee",
+      "type": "exotic",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/autumnholidaycoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2/3 whole cloves
+
+  - 1/2 cinnamon sticks, broken up
+
+  - 2/3 green cardamoms
+
+  - 1/2 cup brewed coffee (or however much your coffee pot makes)
+
+  - 2/3 teaspoon brown sugar (optional)
+
+  - 1/4 to taste whipped cream
+
+  - 1/4 to taste chocolate shavings
+
+  - 1/4 to taste cinnamon, sprinkled
+
+Directions:
+
+  1. Brew a pot of your favorite coffee, a little too strong.
+
+  2. In a small pan, add  1/2 cup water, cloves, the cinnamon stick broken up,  cardamom - split the tips, and sugar.
+
+  3. Heat up to boiling then reduce to simmer for 3-4 minutes .
+
+  4. Mix the coffee and the spice-mix, pour into cup top with whipped cream and sprinkle with chocolate and cinnamon.
+
+  5. Add more sugar if desired."
+
+    },
+
+
+{
+      "id": 85,
+      "coffee": "Eggnog Coffee Punch",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/eggnogcoffeepunch.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup and 2 tablespoons coffee ice cream
+
+  - 1/4 cup and 2 tablespoons eggnog
+
+  - 1/4 cup hot strongly brewed coffee
+
+  - 1 tablespoon frozen whipped topping, thawed
+
+  - 1 pinch ground nutmeg
+
+Directions:
+
+  1. Scoop the ice cream into a pan over low heat. Stir in the eggnog and coffee and heat until warm, about 3 minutes. 
+
+  2. Pour into  glass or ceramic mug.
+
+  3. Top with 1 tablespoon whipped topping and sprinkle with nutmeg.
+
+  4. Serve immediately."
+
+    },
+
+{
+      "id": 86,
+      "coffee": "Bailey's Espresso Martini",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/baileyespressomartini.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup Baileys Irish Cream
+
+  - 1 shot espresso
+
+  - 1 tablespoon vodka
+
+Directions:
+
+  1. Add all ingredients to a shaker of ice, shake.
+
+  2. Pour into martini glass and garnish."
+
+    },
+
+{
+      "id": 87,
+      "coffee": "Chocolate Vodka Espresso",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/chocolatevodkaespresso.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 large Espresso shot or a small strong coffee
+
+  - 1/4 cup Dark Chocolate Vodka
+
+  - Whipped cream
+
+  - Chocolate shavings
+
+Directions:
+
+  1. Make your Espresso or strong coffee in a mug.
+
+  2. Add the chocolate vodka and give it a stir.
+
+  3. Dollop with whipped cream and some shaved chocolate."
+
+    },
+
+{
+      "id": 88,
+      "coffee": "Italian Coffee Coctail",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/italiancoffeecoctail.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon amaretto almond liqueur
+
+  - 1 tablespoon coffee liqueur
+
+  - 2/3 cup hot black coffee
+
+  - 3 tablespoons whipped cream
+
+  - 1 teaspoon sugar
+
+  - 1 teaspoon amaretto almond liqueur
+
+Directions:
+
+  1. Pour coffee, amaretto and coffee liqueur into an irish coffee cup and sweeten to taste.
+
+  2. Gently float the cream on top, add a teaspoon of amaretto, and serve."
+
+    },
+
+{
+      "id": 89,
+      "coffee": "Kahlua Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/khaluacoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup Kahlua
+
+  - 1/2 cup coffee
+
+Directions:
+
+  1. Add Kahlua to coffee. 
+
+  2. Garnish with orange peel or a cinnamon stick."
+
+    },
+
+{
+      "id": 90,
+      "coffee": "Killer Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/killercoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon Bailey's Irish cream
+
+  - 1 tablespoon coffee liqueur
+
+  - 1 tablespoon Vanila vodka
+
+  - 1 cup coffee
+
+  - 2 tablespoons whipped cream
+
+Directions:
+
+  1. Pour the Bailey's Irish Cream, coffee liqueur and vanila vanilla vodka into an Irish coffee cup or glass. 
+
+  2. Fill the glass with hot coffee and top with whipped cream.
+
+  3. Sweeten with sugar or artificial sweetener if desired, and serve.
+
+  4. The Killer Coffee can also be made with cold coffee. Use a large glass and add ice."
+
+    },
+
+{
+      "id": 91,
+      "coffee": "Finlandia Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/finlandiacoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup vodka
+
+  - 1/4 cup cloudberry liqueur
+
+  -  1 cup coffee
+
+  - double cream
+
+Directions:
+
+  1. Pour vodka and cloudberry liqueur into an irish coffee cup.
+
+  2. Fill with hot coffee and float fresh cream or whipped cream on top."
+
+    },
+
+{
+      "id": 92,
+      "coffee": "Grandfather's Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/grandfatherscoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoons brandy
+
+  - 1 tablespoon amaretto almond liqueur
+
+  - 2/3 cup hot espresso
+
+  - 1 teaspoon sugar
+
+Directions:
+
+  1. Warm ingredients in a small saucepan.
+
+  2. Pour into a cup when hot, and serve."
+
+    },
+
+{
+      "id": 93,
+      "coffee": "Gaelic Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/gaeliccoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 teaspoon Irish whiskey
+
+  - 1 teaspoonIrish cream
+
+  - 1 tablespoon dark creme de cacao
+
+  - 1/4 cup milk
+
+  - 1 teaspoon instant coffee
+
+  - green creme de menthe
+
+Directions:
+
+  1. Blend until smooth and pour into an irish coffee cup.
+
+  2. Top with whipped cream and sprinkle with green creme de menthe for color."
+
+    },
+
+{
+      "id": 94,
+      "coffee": "Leprechaun's Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/leprechaunscoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon Bailey's Irish cream
+
+  - 1 teaspoon Irish whiskey
+
+  - 2/3 cup cold black coffee
+
+Directions:
+
+  1. Shake, strain into a highball glass three-quarters filled with broken ice, and serve"
+
+    },
+
+{
+      "id": 95,
+      "coffee": "Cuban Hot Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/cubanhotcoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoons gold rum
+
+  - 1 teaspoons creme de cacao
+
+  - 1/2 teaspoon sugar
+
+  - 1 cup hot coffee
+
+Directions:
+
+  1. Heat liquors in a heat-resistant glass, add sugar, and fill with coffee. 
+
+  2. Stir, and serve."
+
+    },
+
+{
+      "id": 96,
+      "coffee": "Keoke Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/keokecoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 tablespoon coffee liqueur
+
+  - 1 tablespoon de cacao
+
+  - 1 tablespoon oz brandy
+
+  - 1/2 cup coffee
+
+  - 3 tablespoons whipped cream
+
+Directions:
+
+  1. Mix alcohols, add coffee 
+
+  2. Top with whipped cream, and serve."
+
+    },
+
+{
+      "id": 97,
+      "coffee": "Kioki Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/kiokicoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoons coffee liqueur
+
+  - 1 tablespoon brandy
+
+  - 1 cup coffee
+
+Directions:
+
+  1. Stir, and add whipped cream to the top."
+
+    },
+
+{
+      "id": 98,
+      "coffee": "Lagos Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/lagoscoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 teaspoon apricot brandy
+
+  - 1 tablespoon coffee liqueur
+
+  - 2/3 cup hot black coffee
+
+  - 1 tablespoon whipped cream
+
+  - 1 teaspoon sugar
+
+  - 1 teaspoon amaretto almond liqueur
+
+Directions:
+
+  1. Pour coffee and liquor into an irish coffee cup and sweeten to taste.
+
+  2. Gently float the cream on top, add amaretto, and serve."
+
+    },
+
+{
+      "id": 99,
+      "coffee": "Espresso Martini",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/esspressomartini.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 shot cold espresso
+
+  - 1 tablespoon vodka
+
+  - 1 tablespoon coffee liqueur
+
+  - 2 tablespoons white creme de cacao
+
+Directions:
+
+  1. Pour ingredients into shaker filled with ice, shake vigorously.
+
+  2. Strain into chilled martini glass. It should be somewhat frothy."
+
+    },
+
+{
+      "id": 100,
+      "coffee": "Coffee Grog",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/coffeegrog.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 tablespoon butter
+
+  - 1/16-1/8 cup brown sugar
+
+  - 1/16 teaspoon ground allspice
+
+  - 1/16 teaspoon ground cloves
+
+  - 1/16 teaspoon ground nutmeg
+
+  - 1/16 teaspoon ground cinnamon
+
+  - 1/8 cup dark rum
+
+  - 1 slice orange rind
+
+  - 1 slice lemon peel
+
+  - 1/8 cup heavy cream or 1/8 cup half-and-half
+
+  - 3/4 cup coffee
+
+Directions:
+
+  1. In a saucepan, melt the butter over low heat.
+
+  2. Blend in the sugar, spices, and rum.
+
+  3. Allow mixture to cool.
+
+  4. Store in a sealed container in the refrigerator until ready to use.
+
+  5. Place one piece of orange peel and one piece of lemon peel into each mug.
+
+  6. Mix 3/4 cup coffee and 2 tablespoons cream together with 2 tablespoons of the spiced rum mixture in mug (only 1 teaspoon of the spice mixture if you subbed extract for the rum).
+
+  7. Top with whipped cream, if desired."
+
+    },
+
+{
+      "id": 101,
+      "coffee": "Kicked Up Cowboy Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/kickedupcowboycoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup coffee brewed
+
+  - 1/8 cup whiskey
+
+  - 1/4 cup cream (heated)
+
+  - 1 cayenne pepper (fresh)
+
+Directions:
+
+  1. Combine the coffee, whiskey, and cream and stir well. 
+
+  2. Pour into large coffee mug.
+
+  3. Add 1 cayenne pepper to mug and stir well. 
+
+  4. Serve."
+
+    },
+
+{
+      "id": 102,
+      "coffee": "The Gunner",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/thegunner.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoons Whiskey
+
+  - 2 tablespoons coffee liqueur
+
+  - 2 tablespoons Baileys Irish Cream
+
+  - 2/3 cup Coffee hot
+
+Directions:
+
+  1. Pour alcohol into a mug.
+
+  2. Fill up with hot coffee, stir and top with whipped cream and a sprinkle of nutmeg.	"
+
+    },
+
+{
+      "id": 103,
+      "coffee": "Orange Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/orangecoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1 cup coffee, cold
+
+  - 1/4 cup orange juice
+
+  - 1/4 cup vanilla ice cream
+
+  - 1 cup ice cube
+
+  - orange peel
+
+Directions:
+
+  1. Place cold coffee, orange juice, vanilla ice cream, and ice cubes, in a blender.
+
+  2. Blend.
+
+  3. Top with orange peel."
+
+    },
+
+{
+      "id": 104,
+      "coffee": "Nutty Irishman Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/nuttyirishman.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2/3 cup strong hot coffee
+
+  - 2 tablespoons Baileys Irish Cream
+
+  - 2 tablespoons Frangelico
+
+  - whipped cream, to taste (optional)
+
+Directions:
+
+  1. Fill cup with  coffee.
+
+  2. Add  Baileys.
+
+  3. Add Frangelico.
+
+  4. Top with whipped cream."
+
+    },
+
+{
+      "id": 105,
+      "coffee": "Brandy Coffee",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/brandycoffee.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoons Creme de Cacao
+
+  - 2 tablespoons brandy
+
+  - 1 shot espresso, freshly brewed
+
+  - 2 tablespoons whipping cream
+
+  - 1 cup ice, crushed
+
+  - 1/2 teaspoon nutmeg, grated
+
+Directions:
+
+  1. In a cocktail shaker place the creme de cacao, brandy, espresso, and whipping cream.
+
+  2. Add crushed ice, shake well, and strain into a cocktail glass. 
+
+  3.  Sprinkle grated nutmeg on top and serve."
+
+    },
+
+{
+      "id": 106,
+      "coffee": "Black Maria",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/blackmaria.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 1/4 cup coffee
+
+  - 1/4 cup light rum
+
+  - 2 teaspoons powdered sugar
+
+Directions:
+
+  1. Combine and stir all ingredients in a brandy snifter.
+
+  2. Add cracked ice and serve."
+
+    },
+
+{
+      "id": 107,
+      "coffee": "Boom Box",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/boobbox.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoons vodka
+
+  - 2 tablespoons wine
+
+  - 2 tablespoons coffee
+
+Directions:
+
+  1. Add Vodka and White Wine to the coffee. The coffee must still be hot."
+
+    },
+
+{
+      "id": 108,
+      "coffee": "Coffee Imperial",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/coffeeimperial.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2/3 cinnamon sticks
+
+  - 1 cup strong coffee, freshly brewed
+
+  - 1/8 cup heavy cream
+
+  - 1/4 to taste sugar
+
+  - 1/4 to taste crushed ice
+
+  - 1/4 to taste whipped cream
+
+  - 1/4 to taste cinnamon
+
+Directions:
+
+  1. Add cinnamon sticks to hot coffee and let stand for 1 hour, then remove cinnamon.
+
+  2. To coffee add sugar to taste and the heavy cream, then chill.
+
+  3. Pour mixture into tall glasses and fill with ice, top with whipped cream and a sprinkle of cinnamon."
+
+    },
+
+{
+      "id": 109,
+      "coffee": "Hot Marie",
+      "type": "cocktails",
+      "url": "https://dl.dropboxusercontent.com/u/28279358/Coffee/hotmarie.jpg",
+      "preparation":
+      "Servings: 1
+
+Ingredients:
+
+  - 2 tablespoons brandy
+
+  - 2 tablespoons dark rum
+
+  - 1 tablespoon oz coffee liqueur
+
+  - 1 cup hot coffee
+
+Directions:
+
+  1. Heat liquors in a heat-resistant glass or cup, and fill with coffee. 
+
+  2. Add sugar, to taste, and serve."
+
+    }
+ ]
+

@@ -1,0 +1,886 @@
+[
+        {
+        "id":"0",
+        "by":"Abraham Lincoln",
+        "quote":"If this is coffee, please bring me some tea but if this is tea, please bring me some coffee."
+
+        },
+
+        {
+        "id":"1",
+        "by":"Alphonse Allais",
+        "quote":"Coffee is a beverage that puts one to sleep when not drank."
+
+        },
+
+        {
+        "id":"2",
+        "by":"Zora Neale Hurston",
+        "quote":"It seems to me that trying to live without friends is like milking a bear to get cream for your morning coffee. It is a whole lot of trouble, and then not worth much after you get it."
+
+        },
+
+        {
+        "id":"3",
+        "by":"Anais Nin",
+        "quote":"A leaf fluttered in through the window this morning, as if supported by the rays of the sun, a bird settled on the fire escape, joy in the task of coffee, joy accompanied me as I walked"
+
+        },
+
+        {
+        "id":"4",
+        "by":"Alfred Renyi",
+        "quote":"A mathematician is a device for turning coffee into theorems."
+
+        },
+
+        {
+        "id":"5",
+        "by":"John Fellows Akers",
+        "quote":"After a heated argument on some trivial matter Nancy Astor . shouted, If I were your wife I would put poison in your coffee Whereupon Winston Churchill answered, And if I were your husband I would drink it."
+
+        },
+
+        {
+        "id":"6",
+        "by":"Haris naeem dhoraji",
+        "quote":"Coffee black, water tap, whisky neat."
+
+        },
+
+        {
+        "id":"7",
+        "by":"Charles Lauller",
+        "quote":"Coffee is my cup of tea."
+
+        },
+
+        {
+        "id":"8",
+        "by":"Charles Lauller",
+        "quote":"COFFEE.EXE missing. Insert cup and press any key."
+
+        },
+
+        {
+        "id":"9",
+        "by":"Bill Maher",
+        "quote":"During the Depression, or back when we were fighting Hitler, people didn't have time to sue a company if the coffee was too hot. There were urgent, pressing problems. If you think you have it tough, read history books."
+
+        },
+
+
+        {
+        "id":"10",
+        "by":"Anne Morrow Lindbergh",
+        "quote":"Good communication is as stimulating as black coffee and just as hard to sleep after."
+
+        },
+
+        {
+        "id":"11",
+        "by":"Groucho Marx",
+        "quote":"I did toy with the idea of doing a cook-book. The recipes were to be the routine ones: how to make dry toast, instant coffee, hearts of lettuce and brownies. But as an added attraction, at no extra charge, my idea was to put a fried egg on the cover. I think a lot of people who hate literature but love fried eggs would buy it if the price was right."
+
+        },
+
+        {
+        "id":"12",
+        "by":"Malcolm X",
+        "quote":"It's just like when you've got some coffee that's too black, which means it's too strong. What do you do? You integrate it with cream, you make it weak. But if you pour too much cream in it, you won't even know you ever had coffee. It used to be hot, it becomes cool. It used to be strong, it becomes weak. It used to wake you up, now it puts you to sleep."
+
+        },
+
+        {
+        "id":"13",
+        "by":"T.S. Eliot",
+        "quote":"I have measured out my life with coffee spoons."
+
+        },
+
+        {
+        "id":"14",
+        "by":"Tom Felton",
+        "quote":"Jason Isaacs always looked after me very well. Alan Rickman, Michael Gambon, Helena Bonham Carter - they're all wonderful people and very helpful and inspiring. I bored Alan Rickman for hours about Robin Hood. It was one of my favorite films when I was younger and I asked how he did certain scenes. He was very patient and charming. It took me six years to work up the courage to ask him. Helena gave me advice about crying in a scene. She said tell your brain you're not allowed to cry and then it's more likely to happen. No one was difficult. You hear stories about actors who demand their coffee to be served at a certain temperature but on Harry Potter if you wanted a cup of tea you had to get it yourself."
+
+        },
+
+        {
+        "id":"15",
+        "by":"John D. Rockefeller",
+        "quote":"The ability to deal with people is as purchasable a commodity as sugar or coffee and I will pay more for that ability than for any other under the sun."
+
+        },
+
+        {
+        "id":"16",
+        "by":"Mark Twain, Greatly Exaggerated",
+        "quote":"The best coffee in Europe is Vienna coffee, compared to which all other coffee is fluid poverty."
+
+        },
+
+        {
+        "id":"17",
+        "by":"Thomas Jefferson",
+        "quote":"The superiority of chocolate (hot chocolate), both for health and nourishment, will soon give it the same preference over tea and coffee in America which it has in Spain. . ."
+
+        },
+
+        {
+        "id":"18",
+        "by":"Orson Welles",
+        "quote":"There are three intolerable things in life - cold coffee, lukewarm champagne, and overexcited women."
+
+        },
+
+        {
+        "id":"20",
+        "by":"Honore de Balzac",
+        "quote":"This coffee plunges into the stomach...the mind is aroused, and ideas pour forth like the battalions of the Grand Army on the field of battle.... Memories charge at full gallop...the light cavalry of comparisons deploys itself magnificently; the artillery of logic hurry in with their train of ammunition; flashes of wit pop up like sharp-shooters."
+
+        },
+
+        {
+        "id":"21",
+        "by":"Ralph Waldo Emerson",
+        "quote":"Tobacco, coffee, alcohol, hashish, prussic acid, strychnine, are weak dilutions the surest poison is time."
+
+        },
+
+        {
+        "id":"23",
+        "by":"Albert Camus",
+        "quote":"Should I kill myself, or have a cup of coffee?"
+
+        },
+
+        {
+        "id":"24",
+        "by":"Cassandra Clare, City of Bones",
+        "quote":"What do you want? Just coffee. Black - like my soul."
+
+        },
+
+        {
+        "id":"25",
+        "by":"Cassandra Clare, City of Ashes",
+        "quote":"As long as there was coffee in the world, how bad could things be?"
+
+        },
+
+        {
+        "id":"26",
+        "by":"Dave Barry",
+        "quote":"It is inhumane, in my opinion, to force people who have a genuine medical need for coffee to wait in line behind people who apparently view it as some kind of recreational activity"
+
+        },
+
+        {
+        "id":"27",
+        "by":"Louisa May Alcott, Little Women",
+        "quote":"I'd rather take coffee than compliments just now."
+
+        },
+
+        {
+        "id":"28",
+        "by":" Anne Morrow Lindbergh",
+        "quote":"Good communication is as stimulating as black coffee and just as hard to sleep after."
+
+        },
+
+        {
+        "id":"29",
+        "by":"Terry Pratchett, Thud!",
+        "quote":"Coffee is a way of stealing time that should by rights belong to your older self."
+
+        },
+
+        {
+        "id":"30",
+        "by":"Neil Gaiman, Anansi Boys",
+        "quote":"Black as night, sweet as sin."
+
+        },
+
+        {
+        "id":"31",
+        "by":"Sarah Vowell",
+        "quote":"Just the other day, I was in my neighborhood Starbucks, waiting for the post office to open. I was enjoying a chocolatey cafe mocha when it occurred to me that to drink a mocha is to gulp down the entire history of the New World. From the Spanish exportation of Aztec cacao, and the Dutch invention of the chemical process for making cocoa, on down to the capitalist empire of Hershey, PA, and the lifestyle marketing of Seattle's Starbucks, the modern mocha is a bittersweet concoction of imperialism, genocide, invention, and consumerism served with whipped cream on top."
+
+        },
+
+        {
+        "id":"32",
+        "by":"Brian Andreas",
+        "quote":"I don't really like coffee, she said, but I don't really like it when my head hits my desk when I fall asleep either."
+
+        },
+
+        {
+        "id":"33",
+        "by":"Jarod Kintz, This Book Has No Title",
+        "quote":"At Starbucks I like ordering a 'Tall venti in a grande cup.' That's basically me asking for a small large in a medium cup."
+
+        },
+
+        {
+        "id":"34",
+        "by":"Jarod Kintz, The Days of Yay are Here! Wake Me Up When They're Over.",
+        "quote":"Hydrogenated and androgynous milky white love is all I have to offer you. Would you like me to pour it in your coffee, or directly into your soul?"
+
+        },
+
+        {
+        "id":"35",
+        "by":"Justina Chen, North of Beautiful",
+        "quote":"Adventure in life is good, consistency in coffee even better."
+
+        },
+
+        {
+        "id":"36",
+        "by":"Charlotte Eriksson, Empty Roads & Broken Bottles; in search for The Great Perhaps",
+        "quote":"Let me wake up next to you, have coffee in the morning and wander through the city with your hand in mine, and I'll be happy for the rest of my fucked up little life"
+
+        },
+
+        {
+        "id":"37",
+        "by":"Jarod Kintz, At even one penny, this book would be overpriced. In fact, free is too expensive, because you'd still waste time by reading it.",
+        "quote":"Respect doesn't have to be shiny. It just needs to be wearable. Would you be so kind as to hold my jockstrap while I stir your hot coffee??"
+
+        },
+
+        {
+        "id":"38",
+        "by":"Jarod Kintz, This is the best book I've ever written, and it still sucks",
+        "quote":"If one unlabeled bottle holds nonfat milk, what does the second unlabeled bottle contain? If you answered 'Whole milk' then you're obviously not ready to receive a jug of my love. So I'll just pour it in someone else's coffee."
+
+        },
+
+        {
+        "id":"39",
+        "by":"Henning Mankell, One Step Behind",
+        "quote":"Police work wouldn't be possible without coffee, Wallander said. No work would be possible without coffee. They pondered the importance of coffee in silence"
+
+        },
+
+        {
+        "id":"40",
+        "by":"Patricia Briggs, Moon Called",
+        "quote":"Mercy, he mumbled. What the hell did you do to my French Roast?"
+
+        },
+
+        {
+        "id":"41",
+        "by":"Gary Snyder",
+        "quote":"There are those who love to get dirty and fix things. They drink coffee at dawn, beer after work. And those who stay clean, just appreciate things. At breakfast they have milk and juice at night. There are those who do both, they drink tea."
+
+        },
+
+        {
+        "id":"42",
+        "by":"Justina Chen, North of Beautiful",
+        "quote":"Come on, don't you ever stop and smell the coffee?"
+
+        },
+
+        {
+        "id":"43",
+        "by":"Tahereh Mafi, Destroy Me",
+        "quote":"Only an idiot would rely on the energy of a bean or a leaf to stay awake throughout the day."
+
+        },
+
+        {
+        "id":"44",
+        "by":"Leanna Renee Hieber, Darker Still",
+        "quote":"Coffee first. Schemes later."
+
+        },
+
+        {
+        "id":"45",
+        "by":"Gabriel Ba, Daytripper",
+        "quote":"It doesn't matter where you're from - or how you feel... There's always peace in a strong cup of coffee."
+
+        },
+
+        {
+        "id":"46",
+        "by":"Jean Kerr",
+        "quote":"Do you know how helpless you feel if you have a full cup of coffee in your hand and you start to sneeze? "
+
+        },
+
+        {
+        "id":"47",
+        "by":"Jerry Seinfeld",
+        "quote":"We want to do a lot of stuff; we're not in great shape. We didn't get a good night's sleep. We're a little depressed. Coffee solves all these problems in one delightful little cup."
+
+        },
+
+        {
+        "id":"48",
+        "by":"Jim Carrey",
+        "quote":"I wake up some mornings and sit and have my coffee and look out at my beautiful garden, and I go, 'Remember how good this is. Because you can lose it.'"
+
+        },
+
+        {
+        "id":"49",
+        "by":"Lewis Black",
+        "quote":"I like coffee because it gives me the illusion that I might be awake."
+
+        },
+
+        {
+        "id":"50",
+        "by":"Deepak Chopra",
+        "quote":"Karma is experience, and experience creates memory, and memory creates imagination and desire, and desire creates karma again. If I buy a cup of coffee, that's karma. I now have that memory that might give me the potential desire for having cappuccino, and I walk into Starbucks, and there's karma all over again."
+
+        },
+
+        {
+        "id":"51",
+        "by":"Jackie Chan",
+        "quote":"Coffee is a language in itself."
+
+        },
+
+        {
+        "id":"52",
+        "by":"Hugh Jackman",
+        "quote":"To me, the smell of fresh-made coffee is one of the greatest inventions."
+
+        },
+
+        {
+        "id":"53",
+        "by":"John Cusack",
+        "quote":"I force people to have coffee with me, just because I don't trust that a friendship can be maintained without any other senses besides a computer or cellphone screen."
+
+        },
+
+        {
+        "id":"54",
+        "by":"Christina Applegate",
+        "quote":"My dream is to have a house on the beach, even just a little shack somewhere so I can wake up, have coffee, look at dolphins, be quiet and breathe the air."
+
+        },
+
+        {
+        "id":"55",
+        "by":"David Letterman",
+        "quote":"If it wasn't for the coffee, I'd have no identifiable personality whatsover."
+
+        },
+
+        {
+        "id":"56",
+        "by":"Nicole Polizzi",
+        "quote":"I think the biggest misconception about me is people really don't know who I really am. They see the party side of me, they see the crazy side of me. But I also have a laid-back side. You know, I'm chill, down to earth. If you want to grab a cup of coffee and just talk about life, I can do that."
+
+        },
+
+        {
+        "id":"57",
+        "by":"Fran Drescher",
+        "quote":"Once you wake up and smell the coffee, it's hard to go back to sleep."
+
+        },
+
+        {
+        "id":"58",
+        "by":"David Lynch",
+        "quote":"I like cappuccino, actually. But even a bad cup of coffee is better than no coffee at all."
+
+        },
+
+        {
+        "id":"59",
+        "by":"Andrea Hirata",
+        "quote":"Happiness is actually found in simple things, such as taking my nephew around the island by bicycle or seeing the stars at night. We go to coffee shops or see airplanes land at the airport."
+
+        },
+
+        {
+        "id":"60",
+        "by":"Daniel Goleman",
+        "quote":"Emotions are contagious. We've all known it experientially. You know after you have a really fun coffee with a friend, you feel good. When you have a rude clerk in a store, you walk away feeling bad."
+
+        },
+
+        {
+        "id":"61",
+        "by":"Jarod Kintz, This is the best book I've ever written, and it still sucks",
+        "quote":"I'll tug at your breasts like a thirsty child. Try not to burn your nipples in my hot coffee. While you're at it, I also like sugar in my coffee."
+
+        },
+
+        {
+        "id":"62",
+        "by":"Jarod Kintz, This Book is Not for Sale",
+        "quote":"My couch is coffee-colored. I can thank Starbucks and clumsiness for that"
+
+        },
+
+        {
+        "id":"63",
+        "by":"Earl Wilson",
+        "quote":"Science may never come up with a better office communication system than the coffee break."
+
+        },
+
+        {
+        "id":"64",
+        "by":"Howard Schultz",
+        "quote":"I can't imagine a day without coffee. I can't imagine!"
+
+        },
+
+        {
+        "id":"65",
+        "by":"Barbara Crooker, More",
+        "quote":"I like my coffee black, my beer from Germany, wine from Burgundy, the darker, the better. I like my heroes complicated and brooding, James Dean in oiled leather, leaning on a motorcycle. You know the color."
+
+        },
+
+        {
+        "id":"66",
+        "by":"Steven Wright",
+        "quote":"I put instant coffee in a microwave oven and almost went back in time."
+
+        },
+
+        {
+        "id":"67",
+        "by":"Howard Schultz",
+        "quote":"I was taken by the power that savoring a simple cup of coffee can have to connect people and create community."
+
+        },
+
+        {
+        "id":"68",
+        "by":"Anton du Beke",
+        "quote":"My perfect morning is spent drinking coffee, eating porridge and reading the paper at a local cafe."
+
+        },
+
+        {
+        "id":"69",
+        "by":"David Lynch",
+        "quote":"Even bad coffee is better than no coffee at all"
+
+        },
+
+        {
+        "id":"70",
+        "by":"Abigail Reynolds, Pemberley by the Sea",
+        "quote":"I like my coffee with cream and my literature with optimism."
+
+        },
+
+        {
+        "id":"71",
+        "by":"Terry Pratchett, Monstrous Regiment",
+        "quote":"Who shall I shoot? You choose. Now, listen very carefully: where's your coffee? You've got coffee, haven't you? C'mon, everyone's got coffee! Spill the beans!"
+
+        },
+
+        {
+        "id":"72",
+        "by":"Ronald Reagan",
+        "quote":"I never drink coffee at lunch. I find it keeps me awake for the afternoon."
+
+        },
+
+        {
+        "id":"73",
+        "by":"Charlie Sheen",
+        "quote":"I'm dealing with fools and trolls and soft targets. It's just strafing runs in my underwear before my first cup of coffee. I don't have time for these clowns."
+
+        },
+
+        {
+        "id":"74",
+        "by":"Heather Brooke",
+        "quote":"Our printing press is the Internet. Our coffee houses are social networks."
+
+        },
+
+        {
+        "id":"75",
+        "by":"Jason Behr",
+        "quote":"Coffee and cigarettes, that's one of my weaknesses."
+
+        },
+
+        {
+        "id":"76",
+        "by":"Lana Del Rey",
+        "quote":"In New York I pretty much live in diners - I order French Fries, Diet Coke floats and lots of coffee."
+
+        },
+
+        {
+        "id":"77",
+        "by":"Jarod Kintz, This Book Has No Title",
+        "quote":"My coffee gets increasingly better the more I drink and the closer I come to the bottom of the cup, where all the sugar is. I wonder if life is the same way as we approach the end."
+
+        },
+
+        {
+        "id":"78",
+        "by":"Edward Abbey",
+        "quote":"Our culture runs on coffee and gasoline, the first often tasting like the second."
+
+        },
+
+        {
+        "id":"79",
+        "by":"Howard Schultz",
+        "quote":"Certainly the caffeine in coffee, whether it's Starbucks or generic coffee, is somewhat of a stimulant. But if you drink it in moderation, which I think four or five cups a day is, you're fine."
+
+        },
+
+        {
+        "id":"80",
+        "by":"Laurell K. Hamilton, Cerulean Sins",
+        "quote":"I sipped my own coffee, heavy on the sugar and cream, trying to make up for the late work the night before. Caffeine and sugar, the two basic food groups."
+
+        },
+
+        {
+        "id":"81",
+        "by":"Gary Larson",
+        "quote":"I don't know where my ideas come from. I will admit, however, that one key ingredient is caffeine. I get a couple cups of coffee into me and weird things just start to happen."
+
+        },
+
+        {
+        "id":"82",
+        "by":"Julie Roberts",
+        "quote":"I love going to coffee shops and just sitting and listening."
+
+        },
+
+        {
+        "id":"83",
+        "by":"Jodi Picoult, My Sister's Keeper",
+        "quote":"i don't know. i don't care. all i know is when you pay for something that's supposed to give you a cup of coffee, you deserve to get your fucking cup of coffee."
+
+        },
+
+        {
+        "id":"84",
+        "by":"Darynda Jones, First Grave on the Right",
+        "quote":"Pretending to drink coffee was similar to faking an orgasm."
+
+        },
+
+        {
+        "id":"85",
+        "by":"Barbara A. Daniels",
+        "quote":"Life is a beautiful and endless journey in search of the perfect cup."
+
+        },
+
+        {
+        "id":"86",
+        "by":"Tara Lipinski",
+        "quote":"The sound of the blades on the ice in the morning is like smelling fresh coffee."
+
+        },
+
+        {
+        "id":"87",
+        "by":"Mae West",
+        "quote":"If I asked for a cup of coffee, someone would search for the double meaning."
+
+        },
+
+        {
+        "id":"88",
+        "by":"Hugh Laurie",
+        "quote":"I am a coffee fanatic. Once you go to proper coffee, you can't go back. You cannot go back."
+
+        },
+
+        {
+        "id":"89",
+        "by":"Robert Newton Peck, A Day No Pigs Would Die",
+        "quote":"Somehow, the Good Lord don't want to see no man start a cold morning with just black coffee"
+
+        },
+
+        {
+        "id":"90",
+        "by":"James Mackintosh",
+        "quote":"The powers of a man's mind are directly proportioned to the quantity of coffee he drinks."
+
+        },
+
+        {
+        "id":"91",
+        "by":"Marcia Carrington",
+        "quote":"A morning coffee is my favorite way of starting the day, settling the nerves so that they don't later fray."
+
+        },
+
+        {
+        "id":"93",
+        "by":"Iris Murdoch, The Sea, the Sea",
+        "quote":"Coffee, unless it is very good and made by somebody else, is pretty intolerable at any time."
+
+        },
+
+        {
+        "id":"94",
+        "by":"Jennifer Aniston",
+        "quote":"Look I eat really well and I work out, but I also indulge when I want to. I don't starve myself in an extremist way. You're not taking away my coffee or my dairy or my glass of wine because I'd be devastated."
+
+        },
+
+        {
+        "id":"95",
+        "by":"Jimmy Carr",
+        "quote":"Like most of the world's population I'm into coffee, but in a properly big and important way. My perfect weekend would start with a pint of coffee."
+
+        },
+
+        {
+        "id":"96",
+        "by":"Helen Hayes",
+        "quote":"When traveling with someone, take large does of patience and tolerance with your morning coffee."
+
+        },
+
+        {
+        "id":"97",
+        "by":"Guy Pearce",
+        "quote":"My problem is I'm an addictive personality. I can't have one coffee. I can't eat one piece of chocolate."
+
+        },
+
+        {
+        "id":"98",
+        "by":"Marissa Jaret Winokur",
+        "quote":"I know many people have said it before, but there is nothing a cup of coffee and a new pair of shoes can't fix!"
+
+        },
+
+        {
+        "id":"99",
+        "by":"Himmilicious",
+        "quote":"The relationship between a perfect cup of coffee and a writer is just like the couple who always standby and feel proud of being committed to each other"
+
+        },
+
+        {
+        "id":"100",
+        "by":"Amal El-Mohtar, Steam-Powered: Lesbian Steampunk Stories",
+        "quote":"There were some problems only coffee and ice cream could fix."
+
+        },
+
+        {
+        "id":"101",
+        "by":"Josephine Baker",
+        "quote":"I have walked into the palaces of kings and queens and into the houses of presidents. And much more. But I could not walk into a hotel in America and get a cup of coffee, and that made me mad."
+
+        },
+
+        {
+        "id":"102",
+        "by":"Martha Beck",
+        "quote":"Almost all my middle-aged and elderly acquaintances, including me, feel about 25, unless we haven't had our coffee, in which case we feel 107."
+
+        },
+
+        {
+        "id":"103",
+        "by":"Mary-Kate Olsen",
+        "quote":"I wear weird things sometimes. I like to drink coffee. Neither of those things have anything to do with who I am."
+
+        },
+
+        {
+        "id":"104",
+        "by":"Mae West",
+        "quote":"Coffee and chocolate, the inventor of mocha should be sainted."
+
+        },
+
+        {
+        "id":"105",
+        "by":"Emo Philips",
+        "quote":"When I wake up in the morning, I just can't get started until I've had that first, piping hot pot of coffee. Oh, I've tried other enemas."
+
+        },
+
+        {
+        "id":"106",
+        "by":"Jerry Seinfeld",
+        "quote":"You don't even really need a place. But you feel like you're doing something. That is what coffee is. And that is one of the geniuses of the new coffee culture."
+
+        },
+
+        {
+        "id":"107",
+        "by":"Dave Barry",
+        "quote":"Eating rice cakes is like chewing on a foam coffee cup, only less filling."
+
+        },
+
+        {
+        "id":"108",
+        "by":"Sandra Bullock",
+        "quote":"I gave up coffee. It's almost worse than giving up a lover."
+
+        },
+
+        {
+        "id":"109",
+        "by":"Burt Lancaster",
+        "quote":"I judge a restaurant by the bread and by the coffee."
+
+        },
+
+        {
+        "id":"110",
+        "by":"Magic Johnson",
+        "quote":"People don't stop eating, and they don't stop drinking coffee."
+
+        },
+
+        {
+        "id":"111",
+        "by":"Mohamed ElBaradei",
+        "quote":"Democracy is not an instant coffee."
+
+        },
+
+        {
+        "id":"112",
+        "by":"James Surowiecki",
+        "quote":"Although oil is a commodity, it's still not a commodity like coffee, which, thank God, we will have with us always. At some point the oil will run out."
+
+        },
+
+        {
+        "id":"113",
+        "by":"Jake Gyllenhaal",
+        "quote":"It's funny to me that people find other people getting coffee really interesting, or walking their dog in the dog park."
+
+        },
+
+        {
+        "id":"114",
+        "by":"Jewel",
+        "quote":"I was homeless and I was in San Diego and I started singing in a local coffee shop and people started coming to hear me sing."
+
+        },
+
+        {
+        "id":"115",
+        "by":"Jonathan Ames",
+        "quote":"I drink coffee. Without coffee, I probably couldn't write."
+
+        },
+
+        {
+        "id":"116",
+        "by":"Ice Cube",
+        "quote":"I wake up at 5:30, 6 in the morning, but don't head into the office right away. I like to hang out with my wife, talk about things, get some coffee, you know."
+
+        },
+
+        {
+        "id":"117",
+        "by":"Utada Hikaru",
+        "quote":"I bought an espresso maker and coffee maker and make them myself every day."
+
+        },
+
+        {
+        "id":"118",
+        "by":"Peter Capaldi",
+        "quote":"I'm not an extravagant man. The fact that I can have a coffee out whenever I want still makes me feel grateful."
+
+        },
+
+        {
+        "id":"119",
+        "by":"Tim Gunn",
+        "quote":"I have to have my coffee. I probably have three cups a day, but only before noon."
+
+        },
+
+        {
+        "id":"120",
+        "by":"Douglas Wilson",
+        "quote":"I see the same coffee table everywhere. It's mass marketing."
+
+        },
+
+        {
+        "id":"121",
+        "by":"Tori Amos",
+        "quote":"Take a different route to the coffee shop to see what you can see and hear. When we get in a routine, we can become zombie-like and shut down. It's about discipline. You have to push yourself."
+
+        },
+
+        {
+        "id":"122",
+        "by":"Marcus Samuelsson",
+        "quote":"I love having a croissant and a great cup of coffee. Just one cup."
+
+        },
+
+        {
+        "id":"123",
+        "by":"Ice Cube",
+        "quote":"I make a mean cup of coffee, if you give me the right ingredients."
+
+        },
+
+        {
+        "id":"124",
+        "by":"Gail Porter",
+        "quote":"But I love New York. I used to set my alarm clock when I was there, and get up at 4am and get a coffee, just because I could."
+
+        },
+
+        {
+        "id":"125",
+        "by":"Mae West",
+        "quote":"Coffee and chocolate—the inventor of mocha should be sainted."
+
+        },
+
+        {
+        "id":"126",
+        "by":"Vincente Minnelli",
+        "quote":"I always have coffee without sugar, you know. Just cream."
+
+        },
+
+        {
+        "id":"127",
+        "by":"Chris Cornell",
+        "quote":"I never wrote music or arranged songs or lyrics when I was under the influence of anything but coffee. That's not gone away."
+
+        },
+
+        {
+        "id":"128",
+        "by":"Rose George",
+        "quote":"Buy your fair-trade coffee beans by all means, but don't assume fair-trade principles govern the conditions of the men who fetch it to you. You would be mistaken."
+
+        }
+
+]
+

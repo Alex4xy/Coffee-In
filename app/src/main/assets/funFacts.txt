@@ -1,0 +1,258 @@
+[
+        {
+        "id":"0",
+        "funFact":"Great news! Caffeine was once thought to be a significant diuretic, but that's actually not true. Unless it's consumed in large quantities (more than 500 to 600 mg a day, or two coffees) there aren't such negative effects. In fact, studies have shown that urine output isn't significantly changed when a person drinks a caffeinated beverage, rather than something non-caffeinated like water. So, as long as you enjoy your coffee in moderation, there's not much to worry about."
+        },
+
+        {
+        "id":"1",
+        "funFact":"According to legend, Ethiopian shepherds first realized the profound caffeinating effects of coffee when they noticed their goats started 'dancing' after eating coffee berries."
+        },
+
+        {
+        "id":"2",
+        "funFact":"Coffee contains lots of antioxidants that help the body fight chemicals called 'free radicals.' As a result, coffee drinkers are at a lower risk of diseases such as Parkinson's Disease, Type II Diabetes, and Heart Disease. Here's the thing, though: coffee drinkers are also more likely to have unhealthy habits such as smoking cigarettes, drinking alcohol heavily, and eating red meat, so the study shown above has been adjusted to show what could happen if these other factors weren't in effect."
+        },
+
+        {
+        "id":"3",
+        "funFact":"A single cup of coffee contains 11% of the daily recommended amount of Riboflavin (vitamin B2), 6% of Pantothenic Acid (vitamin B5), 3% of Manganese and Potassium, and 2% of Niacin and Magnesium."
+        },
+
+        {
+        "id":"4",
+        "funFact":"Studies have shown that drinking caffeine can increase your metabolism 3 to 11%. It’s one of the few chemicals that can actually help with fat burning, so might as well drink up!"
+        },
+
+        {
+        "id":"5",
+        "funFact":"The Coffee Belt contains all of the regions that have the conditions needed for coffee growing. Since the plants clearly require lots of sunshine and warmth, it's pretty easy to say that this belt makes a good outline for the best tropical vacations, too!"
+        },
+
+        {
+        "id":"6",
+        "funFact":"From plastic cups to napkins to double brewing (re-brewing coffee a second time to make it stronger), the resources needed for iced coffee are more numerous (and expensive!) than hot coffee is. All of that adds up, and it causes establishments to charge more for their iced drinks than their hot-beverage counterparts."
+        },
+
+        {
+        "id":"7",
+        "funFact":"The buzz you feel after drinking coffee is actually from ingesting tiny 0.0016-inch crystals of caffeine. So small, yet so energizing!"
+        },
+
+        {
+        "id":"8",
+        "funFact":"It only takes ten minutes to start feeling the effects of caffeine after you take a sip of coffee, so drink up!"
+        },
+
+        {
+        "id":"9",
+        "funFact":"Several studies have shown that coffee drinkers are up to 65% less likely to get Alzheimer's Disease, which is a leading cause of dementia."
+        },
+
+        {
+        "id":"10",
+        "funFact":"The most expensive coffee in the world is made from elephant dung, and it's called Black Ivory coffee. It costs $50 per cup. Luwak, aka civet, coffee is made by feeding coffee beans to mongoose and then using its feces. It costs $160 per pound."
+        },
+
+        {
+        "id":"11",
+        "funFact":"People who drink four cups of coffee a day are 80% less likely to develop cirrhosis, a condition that develops from several diseases affecting the liver."
+        },
+
+        {
+        "id":"12",
+        "funFact":"In 1675 King Charles II banned coffee shops because he thought that that's where people were meeting to conspire against him."
+        },
+
+        {
+        "id":"13",
+        "funFact":"Caffeine increases your levels of adrenaline, and releases fatty acids from fat tissues, leading to a better physical performance by those who consume caffeine before working out."
+        },
+
+        {
+        "id":"14",
+        "funFact":"New Yorkers drink almost 7 times more coffee than other cities in the US."
+        },
+
+        {
+        "id":"15",
+        "funFact":"Coffee is a psychoactive. And at high doses it can make you see things… It can also kill you…"
+        },
+
+        {
+        "id":"16",
+        "funFact":"The lethal dose of caffeine is roughly 100 cups of coffee."
+        },
+
+        {
+        "id":"17",
+        "funFact":"A French doctor in the 1600s suggested Cafe Au Laits for patients, inspiring people to begin adding milk to coffee."
+        },
+
+        {
+        "id":"18",
+        "funFact":"According to legend, Honore de Balzac drank 50 cups of coffee a day to fuel his writing."
+        },
+
+        {
+        "id":"19",
+        "funFact":"Espresso is regulated by the Italian government because it is considered an essential part of their daily life"
+        },
+
+        {
+        "id":"20",
+        "funFact":"In the ancient Arab culture there was only one way a woman could legally divorce: If her husband didn't provide enough coffee."
+        },
+
+        {
+        "id":"21",
+        "funFact":"Coffee beans are actually the pit of a berry, which makes them a fruit. The best fruit."
+        },
+
+        {
+        "id":"22",
+        "funFact":"Brewed espresso has 2.5% fat, while filtered coffee contains 0.6% fat."
+        },
+
+        {
+        "id":"23",
+        "funFact":"Johan Sebastian Bach wrote an opera about a woman who was addicted to coffee."
+        },
+
+        {
+        "id":"24",
+        "funFact":"We're not going to tell you how, but there is a way to brew coffee with marijuana in it and it is described as producing a 'dreamy' kind of coffee buzz."
+        },
+
+        {
+        "id":"25",
+        "funFact":"Unlike the hip 20-something Baristas in the US, in Italy the average Barista age is 48, and it is a very respected profession."
+        },
+
+        {
+        "id":"26",
+        "funFact":"In the 1600s there was a controversy over whether or not Catholics could drink coffee, luckily Pope Clement VIII said it was okay."
+        },
+
+        {
+        "id":"27",
+        "funFact":"No matter what people tell you, caffeine cannot help you sober up."
+        },
+
+        {
+        "id":"28",
+        "funFact":"Coffee was banned in Mecca in 1511. It was believed to stimulate radical thinking and hanging out."
+        },
+
+        {
+        "id":"29",
+        "funFact":"The first webcam was invented at The University of Cambridge to let people know if the coffee pot was full or not."
+        },
+
+        {
+        "id":"30",
+        "funFact":"Before coffee caught on in the US in the 1700s, beer was breakfast drink of choice. Which is only slightly less awesome."
+        },
+
+        {
+        "id":"31",
+        "funFact":"Irish coffee was actually invented to warm up cold American plane passengers leaving from Ireland."
+        },
+
+        {
+        "id":"32",
+        "funFact":"Teddy Roosevelt is and was the greatest American coffee drinker, consuming a gallon a day. But you probably shouldn't attempt to do that."
+        },
+
+        {
+        "id":"33",
+        "funFact":"French press coffee may raise your cholesterol."
+        },
+
+        {
+        "id":"34",
+        "funFact":"Coffee may prevent depression. In a survey of over 50,000 women, researchers found that 2-4 cups of coffee per day reduced incidence of depression by 15 to 20 percent."
+
+        },
+
+        {
+        "id":"35",
+        "funFact":"Out of creamer? You can lighten coffee with coconut milk! It's called Bulletproof Coffee, and if you like coconut, you are going to love this!"
+        },
+
+        {
+        "id":"36",
+        "funFact":"Not all coffee is vegan. In fact civet coffee production not only involves animals but is under investigation for animal cruelty"
+        },
+
+        {
+        "id":"37",
+        "funFact":"Fancy coffee concoctions often contain GMOs. If you are trying to avoid GMOs, you may want to think twice about that pumpkin spice latte."
+        },
+
+        {
+        "id":"38",
+        "funFact":"We drink about 1400 million cups of coffee every day. That's right! Worldwide, we are consuming 1.4 billion cups of java daily."
+        },
+
+        {
+        "id":"39",
+        "funFact":"It takes 130 liters (over 34 gallons) of water to produce the beans for 1 cup of coffee. Coffee is not the most water-efficient drink, that's for sure."
+        },
+
+        {
+        "id":"40",
+        "funFact":"Coffee may protect women from endometrial cancer. A massive survey found that coffee – decaf or regular – can reduce endometrial cancer risk by around seven to eight percent."
+        },
+
+        {
+        "id":"41",
+        "funFact":"Hawaii is the Only U.S. State That Commercially Grows Coffee"
+        },
+
+        {
+        "id":"42",
+        "funFact":"Brazil is the world's biggest producer of coffee by a wide margin, followed by Vietnam and Colombia"
+        },
+
+        {
+        "id":"43",
+        "funFact":"The two kinds of beans are Arabica and Robusta. The have different tastes and different caffeine content. Arabica beans are more popular around the world. In fact, 70% of coffee drank on earth is Arabica. Robusta beans grow in different climates and are found largely in Africa and Indonesia. Although most people prefer the taste of Arabica, Robusta has it's fans, and Robusta beans have twice as much caffeine as Arabica!"
+        },
+
+        {
+        "id":"44",
+        "funFact":"The drink 'Americano' comes from when American GIs in WWII would order their espresso with water because it was too strong"
+        },
+
+        {
+        "id":"45",
+        "funFact":"The two most popular beverages on Earth, in order, are water and coffee."
+        },
+
+        {
+        "id":"46",
+        "funFact":"The word 'coffee' comes from the Arabic 'qahhwat al-bun,' meaning 'wine of the bean.'"
+        },
+
+        {
+        "id":"47",
+        "funFact":"Coffee beans are combustible and scientists have suggested that coffee beans could replace fossil fuels as one of our main sources of energy and motor fuel."
+        },
+
+        {
+        "id":"48",
+        "funFact":"Coffee Was Originally a Food, Not a Drink. The first African tribes to consume coffee did not make the delicious drink as we know it today. They combined coffee beans with fat to make 'energy balls' which were munched on for a caffeine boost."
+        },
+
+        {
+        "id":"49",
+        "funFact":"People who drink a moderate amount of coffee are less likely to develop Alzheimers or dementia in old age"
+        },
+
+        {
+        "id":"50",
+        "funFact":"After coffee beans are decaffeinated, coffee manufacturers sell the caffeine to soft drink makers and pharmaceutical companies."
+        }
+
+]
