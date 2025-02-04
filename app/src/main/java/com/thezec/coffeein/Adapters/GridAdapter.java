@@ -58,11 +58,11 @@ public class GridAdapter extends BaseAdapter {
         holder.text.setText(item.getCoffee());
         holder.text.setTypeface(customFont);
 
-        Picasso.with(context)
+        Picasso.get()
                 .load(item.getUrl())
                 .fit()
                 .centerCrop()
-                .placeholder(R.id.gridImage)
+                .placeholder(R.drawable.coffee_placeholder)
                 .into(holder.image);
 
         return convertView;
