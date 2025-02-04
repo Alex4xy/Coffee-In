@@ -22,15 +22,15 @@ import java.util.List;
 /**
  * Created by Aleksandar on 9/18/2014.
  */
-public class NavigationdDrawerAdapter extends BaseAdapter implements Filterable{
+public class NavigationDrawerAdapter extends BaseAdapter implements Filterable {
 
-    private Context context;
+    private final Context context;
     private List<NavigationDrawerListModel> list;
     private List<NavigationDrawerListModel> mList;
     private List<String> mListItem;
     private Typeface customFont;
 
-    public NavigationdDrawerAdapter(Context context, ArrayList<NavigationDrawerListModel> navDrawerItems) {
+    public NavigationDrawerAdapter(Context context, ArrayList<NavigationDrawerListModel> navDrawerItems) {
         this.context = context;
         this.list = navDrawerItems;
     }
@@ -59,8 +59,8 @@ public class NavigationdDrawerAdapter extends BaseAdapter implements Filterable{
         }
 
         customFont = Typeface.createFromAsset(context.getAssets(), "fonts/Mountain-Demo.otf");
-        ImageView imgIcon = (ImageView) convertView.findViewById(R.id.item_icon);
-        TextView txtTitle = (TextView) convertView.findViewById(R.id.item_title);
+        ImageView imgIcon = convertView.findViewById(R.id.item_icon);
+        TextView txtTitle = convertView.findViewById(R.id.item_title);
 
         imgIcon.setImageResource(list.get(position).getIcon());
         txtTitle.setText(list.get(position).getTitle());

@@ -3,6 +3,7 @@ package com.thezec.coffeein.Activities;
 import android.app.SearchManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.Configuration;
 import android.content.res.TypedArray;
 import android.graphics.Color;
@@ -10,31 +11,30 @@ import android.graphics.Typeface;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.app.ActionBarActivity;
-import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.widget.Toolbar;
-import android.view.LayoutInflater;
+import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
+import androidx.appcompat.widget.Toolbar;
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
+
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.EditText;
-import android.widget.Filter;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ListView;
-import android.widget.SearchView;
 import android.widget.TextView;
 import android.widget.Toast;
-
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.google.gson.stream.JsonReader;
 import com.squareup.picasso.Picasso;
 import com.thezec.coffeein.Adapters.GridAdapter;
-import com.thezec.coffeein.Adapters.NavigationdDrawerAdapter;
+import com.thezec.coffeein.Adapters.NavigationDrawerAdapter;
 import com.thezec.coffeein.Adapters.RecipesListViewAdapter;
 import com.thezec.coffeein.Models.NavigationDrawerListModel;
 import com.thezec.coffeein.Models.Recipe;
@@ -48,168 +48,117 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-import butterknife.ButterKnife;
-import butterknife.InjectView;
+public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
-public class MainActivity extends ActionBarActivity implements SearchView.OnQueryTextListener {
+    private Toolbar toolbar;
+    private DrawerLayout drawerLayout;
+    private ListView drawerCategoriesList, drawerListRecipes, favouritesList, searchList;
+    private SearchView search;
+    private TextView header, favourites, randomize, bottomBorder;
+    private ImageView backImage;
+    private LinearLayout backLayout;
+    private SwipeRefreshLayout swipeRefreshLayout;
 
-    @InjectView(R.id.toolbar)
-    Toolbar toolbar;
-    @InjectView(R.id.drawerLayout)
-    DrawerLayout drawerLayout;
-    @InjectView(R.id.drawer_list_categories)
-    ListView drawerCategoriesList;
-    @InjectView(R.id.drawer_list_recipes)
-    ListView drawerListRecipes;
-    @InjectView(R.id.searchViewHomePage)
-    SearchView search;
-    @InjectView(R.id.header_drawer)
-    TextView header;
-    @InjectView(R.id.favourites)
-    TextView favourites;
-    @InjectView(R.id.drawer_list_favourites)
-    ListView favouritesList;
-    @InjectView(R.id.random)
-    TextView randomize;
-    @InjectView(R.id.drawer_list_searchList)
-    ListView searchList;
-    @InjectView(R.id.activity_main_swipe_refresh_layout)
-    SwipeRefreshLayout swipeRefreshLayout;
-    @InjectView(R.id.bottom_border)
-    TextView bottomBorder;
-    @InjectView(R.id.back_image)
-    ImageView backImage;
-    @InjectView(R.id.back_layout)
-    LinearLayout backLayout;
+    private GridView gridView;
+    private View gridHeader;
 
     private ActionBarDrawerToggle drawerToggle;
     private String[] drawerTitlesCategories;
     private TypedArray iconsCategories;
-    private CharSequence mDrawerTitle;
-    private CharSequence mTitle;
-    private List<Recipe> gridList;
-    private List<Recipe> favorites;
-    private List<Recipe> recipeList;
-    private Filter filter;
+    private CharSequence mDrawerTitle, mTitle;
+    private List<Recipe> gridList, recipeList, favorites;
+    private android.widget.Filter filter;
     private RecipesListViewAdapter recipeAdapter;
-    private NavigationdDrawerAdapter navAdapter;
-    private boolean isClassic = false;
-    private boolean isLatte = false;
-    private boolean isFrappe = false;
-    private boolean isWorld = false;
-    private boolean isExotic = false;
-    private boolean isCocktail = false;
-    private boolean isDrawerClosed = true;
-    private boolean isFavList = false;
-    private boolean isRecipeList = false;
-    private boolean isSearchList = false;
+    private NavigationDrawerAdapter navAdapter;
+    private boolean isClassic, isLatte, isFrappe, isWorld, isExotic, isCocktail;
+    private boolean isDrawerClosed = true, isFavList, isRecipeList, isSearchList;
     private Recipe recipe;
     private GridAdapter gridAdapter;
     private SharedPreference sharedPreference;
     private Typeface customFont;
-    private View gridHeader;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ButterKnife.inject(this);
+
+        toolbar = findViewById(R.id.toolbar);
+        drawerLayout = findViewById(R.id.drawerLayout);
+        drawerCategoriesList = findViewById(R.id.drawer_list_categories);
+        drawerListRecipes = findViewById(R.id.drawer_list_recipes);
+        search = findViewById(R.id.searchViewHomePage);
+        header = findViewById(R.id.header_drawer);
+        favourites = findViewById(R.id.favourites);
+        favouritesList = findViewById(R.id.drawer_list_favourites);
+        randomize = findViewById(R.id.random);
+        searchList = findViewById(R.id.drawer_list_searchList);
+        swipeRefreshLayout = findViewById(R.id.activity_main_swipe_refresh_layout);
+        bottomBorder = findViewById(R.id.bottom_border);
+        backImage = findViewById(R.id.back_image);
+        backLayout = findViewById(R.id.back_layout);
+        gridView = findViewById(R.id.gridList);
+        gridHeader = findViewById(R.id.gridHeader);
+
         sharedPreference = SharedPreference.load(this);
 
-        //set boolean for first run
-        final boolean isFirstRunMain = getSharedPreferences("PREFERENCE", MODE_PRIVATE).getBoolean("isFirstRunMain", true);
+        SharedPreferences prefs = getSharedPreferences("PREFERENCE", MODE_PRIVATE);
+        boolean isFirstRunMain = prefs.getBoolean("isFirstRunMain", true);
         if (isFirstRunMain) {
-            Toast.makeText(MainActivity.this, "Swipe down to shuffle", Toast.LENGTH_LONG).show();
-            getSharedPreferences("PREFERENCE", MODE_PRIVATE).edit().putBoolean("isFirstRunMain", false).commit();
+            Toast.makeText(this, "Swipe down to shuffle", Toast.LENGTH_LONG).show();
+            prefs.edit().putBoolean("isFirstRunMain", false).apply();
         }
 
-        //set custom font
         customFont = Typeface.createFromAsset(getAssets(), "fonts/Mountain-Demo.otf");
         header.setTypeface(customFont);
         favourites.setTypeface(customFont);
         randomize.setTypeface(customFont);
 
-        //get json from assets for grid
         Gson gson = new Gson();
         try {
-            // get the input stream reader for the assets json file that contains the recipes
-            InputStream inputStream = getAssets().open("recipesJson.txt");
-            InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
-            // parse the json file to create the list of recipes
-            gridList = gson.fromJson(new JsonReader(inputStreamReader), new TypeToken<List<Recipe>>() {
-            }.getType());
+            InputStream in = getAssets().open("recipesJson.txt");
+            InputStreamReader reader = new InputStreamReader(in);
+            gridList = gson.fromJson(new JsonReader(reader), new TypeToken<List<Recipe>>() {}.getType());
         } catch (Exception e) {
-            // an error occurred, propagate it to the UI for handling
-            e.printStackTrace();
             finish();
             return;
         }
 
-        //set grid
         gridAdapter = new GridAdapter(this, gridList);
-        gridHeader = LayoutInflater.from(this).inflate(R.layout.grid_header, null, false);
+        gridView.setNumColumns(2);
+        gridView.setAdapter(gridAdapter);
+
         setGridHeader();
-        final jp.co.recruit_mp.android.widget.HeaderFooterGridView gridList = (jp.co.recruit_mp.android.widget.HeaderFooterGridView) findViewById(R.id.gridList);
-        gridList.addHeaderView(gridHeader);
-        gridList.setNumColumns(2);
-        gridList.setAdapter(gridAdapter);
 
-        gridList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                setOnClick(parent, position);
-            }
-        });
+        gridView.setOnItemClickListener((parent, view, position, id) -> openRecipeDetail(parent, position));
 
-        //disable swipe if its not first visible item
-        gridList.setOnScrollListener(new AbsListView.OnScrollListener() {
-            @Override
-            public void onScrollStateChanged(AbsListView view, int scrollState) {
-            }
-
+        gridView.setOnScrollListener(new AbsListView.OnScrollListener() {
+            @Override public void onScrollStateChanged(AbsListView view, int scrollState) { }
             @Override
             public void onScroll(AbsListView view, int firstVisibleItem, int visibleItemCount, int totalItemCount) {
                 boolean enable = false;
-                if (gridList != null && gridList.getChildCount() > 0) {
-                    // check if the first item of the list is visible
-                    boolean firstItemVisible = gridList.getFirstVisiblePosition() == 0;
-                    // check if the top of the first item is visible
-                    boolean topOfFirstItemVisible = gridList.getChildAt(0).getTop() == 0;
-                    // enabling or disabling the refresh layout
-                    enable = firstItemVisible && topOfFirstItemVisible;
+                if (gridView != null && gridView.getChildCount() > 0) {
+                    boolean firstItemVisible = gridView.getFirstVisiblePosition() == 0;
+                    View firstChild = gridView.getChildAt(0);
+                    boolean topVisible = firstChild != null && firstChild.getTop() == 0;
+                    enable = firstItemVisible && topVisible;
                 }
                 swipeRefreshLayout.setEnabled(enable);
             }
         });
 
-        //set on refresh
-        swipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                (new Handler()).postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        shuffleList();
-                        swipeRefreshLayout.setRefreshing(false);
-                    }
-                }, 2000);
-            }
+        swipeRefreshLayout.setOnRefreshListener(() -> {
+            new Handler().postDelayed(() -> {
+                shuffleList();
+                swipeRefreshLayout.setRefreshing(false);
+            }, 2000);
         });
-
         swipeRefreshLayout.setColorSchemeResources(R.color.black_text);
 
-        //get json from assets for others
-        Gson gsonRecipe = new Gson();
         try {
-            // get the input stream reader for the assets json file that contains the recipe
-            InputStream inputStream = getAssets().open("recipesJson.txt");
-            InputStreamReader inputStreamReader = new InputStreamReader(inputStream);
-            // parse the json file to create the list of recipe
-            recipeList = gsonRecipe.fromJson(new JsonReader(inputStreamReader), new TypeToken<List<Recipe>>() {
-            }.getType());
+            InputStream in = getAssets().open("recipesJson.txt");
+            InputStreamReader reader = new InputStreamReader(in);
+            recipeList = gson.fromJson(new JsonReader(reader), new TypeToken<List<Recipe>>() {}.getType());
         } catch (Exception e) {
-            // an error occurred, propagate it to the UI for handling
-            e.printStackTrace();
             finish();
             return;
         }
@@ -218,69 +167,32 @@ public class MainActivity extends ActionBarActivity implements SearchView.OnQuer
         searchList.setAdapter(recipeAdapter);
         searchList.setVisibility(View.GONE);
 
-        //set categories icon and titles
         drawerTitlesCategories = getResources().getStringArray(R.array.navigation_drawer_categories);
         iconsCategories = getResources().obtainTypedArray(R.array.navigatin_drawer_icons);
-        //set categories list
-        navAdapter = new NavigationdDrawerAdapter(this, generateDataCategories());
+        navAdapter = new NavigationDrawerAdapter(this, generateDataCategories());
         drawerCategoriesList.setAdapter(navAdapter);
 
-        drawerCategoriesList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-                selectDrawerCategories(position);
-            }
+        drawerCategoriesList.setOnItemClickListener((adapterView, view, position, id) -> selectDrawerCategories(position));
+
+        drawerListRecipes.setOnItemClickListener((parent, view, position, id) -> openRecipeDetail(parent, position));
+
+        searchList.setOnItemClickListener((parent, view, position, id) -> openRecipeDetail(parent, position));
+
+        favourites.setOnClickListener(v -> selectDrawerItem(0));
+
+        randomize.setOnClickListener(v -> selectDrawerItem(1));
+
+        search.setOnQueryTextFocusChangeListener((v, hasFocus) -> {
+            drawerCategoriesList.setVisibility(View.GONE);
+            drawerListRecipes.setVisibility(View.GONE);
+            favouritesList.setVisibility(View.GONE);
+            searchList.setVisibility(View.VISIBLE);
+            backLayout.setVisibility(View.VISIBLE);
+            bottomBorder.setVisibility(View.VISIBLE);
+            isSearchList = true;
         });
 
-        //set recipe list on click
-        drawerListRecipes.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                setOnClick(parent, position);
-            }
-        });
-
-        //set search list on click
-        searchList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                setOnClick(parent, position);
-            }
-        });
-
-        //set favourites on click
-        favourites.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                selectDrawerItem(0);
-            }
-        });
-
-        //set random on click
-        randomize.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                selectDrawerItem(1);
-            }
-        });
-
-        //set on search click
-        search.setOnQueryTextFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                drawerCategoriesList.setVisibility(View.GONE);
-                drawerListRecipes.setVisibility(View.GONE);
-                favouritesList.setVisibility(View.GONE);
-                searchList.setVisibility(View.VISIBLE);
-                backLayout.setVisibility(View.VISIBLE);
-                bottomBorder.setVisibility(View.VISIBLE);
-                isSearchList = true;
-            }
-        });
-
-        //Listen for Open and Close Events
         mTitle = mDrawerTitle = getTitle();
-
         if (toolbar != null) {
             toolbar.setTitle(mTitle);
             setSupportActionBar(toolbar);
@@ -289,127 +201,71 @@ public class MainActivity extends ActionBarActivity implements SearchView.OnQuer
         initDrawer();
         setDrawerRecipeBackButton();
         setupSearchView();
-
     }
 
     private void setFavList() {
-        //set the favourites list
         favorites = sharedPreference.getFavorites(this);
         if (favorites != null) {
             recipeAdapter = new RecipesListViewAdapter(this, favorites);
             favouritesList.setAdapter(recipeAdapter);
             favouritesList.setVisibility(View.GONE);
-
-            favouritesList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-
-                public void onItemClick(AdapterView<?> parent, View arg1,
-                                        int position, long arg3) {
-                    setOnClick(parent, position);
-                }
-            });
+            favouritesList.setOnItemClickListener((parent, view, position, id) -> openRecipeDetail(parent, position));
         }
     }
 
     private void setDrawerRecipeBackButton() {
-        //set recipes list header back navigation
         backLayout.setVisibility(View.GONE);
         bottomBorder.setVisibility(View.GONE);
         header.setText("Back to Categories");
 
-        header.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                drawerListRecipes.setVisibility(View.GONE);
-                drawerCategoriesList.setVisibility(View.VISIBLE);
-                backLayout.setVisibility(View.GONE);
-                bottomBorder.setVisibility(View.GONE);
-                favouritesList.setVisibility(View.GONE);
-                searchList.setVisibility(View.GONE);
-                setTitle(mDrawerTitle);
-                isFavList = false;
-                isRecipeList = false;
-                isSearchList = false;
-
-                isClassic = false;
-                isLatte = false;
-                isFrappe = false;
-                isWorld = false;
-                isExotic = false;
-                isCocktail = false;
-            }
-        });
-
-        backImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                drawerListRecipes.setVisibility(View.GONE);
-                drawerCategoriesList.setVisibility(View.VISIBLE);
-                backLayout.setVisibility(View.GONE);
-                bottomBorder.setVisibility(View.GONE);
-                favouritesList.setVisibility(View.GONE);
-                searchList.setVisibility(View.GONE);
-                setTitle(mDrawerTitle);
-                isFavList = false;
-                isRecipeList = false;
-                isSearchList = false;
-
-                isClassic = false;
-                isLatte = false;
-                isFrappe = false;
-                isWorld = false;
-                isExotic = false;
-                isCocktail = false;
-            }
-        });
+        View.OnClickListener backListener = v -> {
+            drawerListRecipes.setVisibility(View.GONE);
+            drawerCategoriesList.setVisibility(View.VISIBLE);
+            backLayout.setVisibility(View.GONE);
+            bottomBorder.setVisibility(View.GONE);
+            favouritesList.setVisibility(View.GONE);
+            searchList.setVisibility(View.GONE);
+            setTitle(mDrawerTitle);
+            isFavList = isRecipeList = isSearchList = false;
+            isClassic = isLatte = isFrappe = isWorld = isExotic = isCocktail = false;
+        };
+        header.setOnClickListener(backListener);
+        backImage.setOnClickListener(backListener);
     }
 
     private void setGridHeader() {
-        //set header recipe name
-        TextView headerGridRecipe = (TextView) gridHeader.findViewById(R.id.headerGridRecipe);
+        TextView headerGridRecipe = gridHeader.findViewById(R.id.headerGridRecipe);
         recipe = gridList.get(new Random().nextInt(gridList.size()));
         headerGridRecipe.setText(recipe.getCoffee());
         headerGridRecipe.setTypeface(customFont);
-
-        //set header recipe image
-        final ImageView headerGridImage = (ImageView) gridHeader.findViewById(R.id.headerGridImage);
-        Picasso.with(this)
+        ImageView headerGridImage = gridHeader.findViewById(R.id.headerGridImage);
+        Picasso.get()
                 .load(recipe.getUrl())
                 .fit()
                 .centerCrop()
-                .placeholder(R.id.headerGridImage)
+                .placeholder(R.drawable.coffee_placeholder)
                 .into(headerGridImage);
-
-        headerGridImage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // get the clicked item
-                Recipe clickedItem = recipe;
-                String jsonRecipe = new Gson().toJson(clickedItem, Recipe.class);
-                // make new activity
-                Intent viewActivity = new Intent(MainActivity.this, RecipeViewActivity.class);
-                viewActivity.putExtra("jsonRecipe", jsonRecipe);
-                startActivity(viewActivity);
-            }
+        headerGridImage.setOnClickListener(v -> {
+            String jsonRecipe = new Gson().toJson(recipe, Recipe.class);
+            Intent viewActivity = new Intent(MainActivity.this, RecipeViewActivity.class);
+            viewActivity.putExtra("jsonRecipe", jsonRecipe);
+            startActivity(viewActivity);
         });
     }
 
     private void initDrawer() {
-        //setup navigation drawer
         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.txt_open, R.string.txt_close) {
             @Override
             public void onDrawerClosed(View drawerView) {
                 super.onDrawerClosed(drawerView);
-                // when drawer closed
                 toolbar.setTitle(mTitle);
                 isDrawerClosed = true;
                 setTitle(R.string.app_name);
                 drawerView.setClickable(false);
             }
-
             @Override
             public void onDrawerOpened(View drawerView) {
                 super.onDrawerOpened(drawerView);
-                // when drawer open
                 toolbar.setTitle(mTitle);
                 isDrawerClosed = false;
                 if (isClassic) {
@@ -426,9 +282,7 @@ public class MainActivity extends ActionBarActivity implements SearchView.OnQuer
                 drawerView.setClickable(true);
             }
         };
-
-        // setDrawerlisterner
-        drawerLayout.setDrawerListener(drawerToggle);
+        drawerLayout.addDrawerListener(drawerToggle);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setHomeButtonEnabled(true);
     }
@@ -452,7 +306,6 @@ public class MainActivity extends ActionBarActivity implements SearchView.OnQuer
     }
 
     private void selectDrawerItem(int position) {
-
         switch (position) {
             case 0:
                 favouritesList.setVisibility(View.VISIBLE);
@@ -462,148 +315,94 @@ public class MainActivity extends ActionBarActivity implements SearchView.OnQuer
                 drawerListRecipes.setVisibility(View.GONE);
                 searchList.setVisibility(View.GONE);
                 isFavList = true;
-                if (favorites == null) {
+                if (favorites == null || favorites.isEmpty()) {
                     Toast.makeText(getBaseContext(), "Favourites is Empty", Toast.LENGTH_SHORT).show();
-                } else {
-                    if (favorites.size() == 0) {
-                        Toast.makeText(getBaseContext(), "Favourites is Empty", Toast.LENGTH_SHORT).show();
-                    }
                 }
                 break;
             case 1:
                 recipe = gridList.get(new Random().nextInt(gridList.size()));
                 String jsonRecipe = new Gson().toJson(recipe, Recipe.class);
-                // make new activity
                 Intent viewActivity = new Intent(MainActivity.this, RecipeViewActivity.class);
                 viewActivity.putExtra("jsonRecipe", jsonRecipe);
                 startActivity(viewActivity);
                 break;
-
             default:
                 break;
         }
     }
 
     private void selectDrawerCategories(int position) {
-
+        List<Recipe> listToShow = new ArrayList<>();
         switch (position) {
             case 0:
                 isRecipeList = true;
                 isClassic = true;
-                List<Recipe> classic = new ArrayList<Recipe>();
-                for (int i = 0; i < recipeList.size(); i++) {
-                    recipe = recipeList.get(i);
-                    if (recipe.getType().equals("classics")) {
-                        classic.add(recipe);
-                    }
+                for (Recipe r : recipeList) {
+                    if ("classics".equals(r.getType()))
+                        listToShow.add(r);
                 }
-                drawerListRecipes.setAdapter(new RecipesListViewAdapter(this, classic));
-                backLayout.setVisibility(View.VISIBLE);
-                bottomBorder.setVisibility(View.VISIBLE);
-                drawerListRecipes.setVisibility(View.VISIBLE);
-                drawerCategoriesList.setVisibility(View.GONE);
                 setTitle("Classic");
                 break;
-
             case 1:
                 isRecipeList = true;
                 isLatte = true;
-                List<Recipe> latte = new ArrayList<Recipe>();
-                for (int i = 0; i < recipeList.size(); i++) {
-                    recipe = recipeList.get(i);
-                    if (recipe.getType().equals("lattes")) {
-                        latte.add(recipe);
-                    }
+                for (Recipe r : recipeList) {
+                    if ("lattes".equals(r.getType()))
+                        listToShow.add(r);
                 }
-                drawerListRecipes.setAdapter(new RecipesListViewAdapter(this, latte));
-                backLayout.setVisibility(View.VISIBLE);
-                bottomBorder.setVisibility(View.VISIBLE);
-                drawerListRecipes.setVisibility(View.VISIBLE);
-                drawerCategoriesList.setVisibility(View.GONE);
                 setTitle("Latte");
                 break;
-
             case 2:
                 isRecipeList = true;
                 isFrappe = true;
-                List<Recipe> frappe = new ArrayList<Recipe>();
-                for (int i = 0; i < recipeList.size(); i++) {
-                    recipe = recipeList.get(i);
-                    if (recipe.getType().equals("frappes")) {
-                        frappe.add(recipe);
-                    }
+                for (Recipe r : recipeList) {
+                    if ("frappes".equals(r.getType()))
+                        listToShow.add(r);
                 }
-                drawerListRecipes.setAdapter(new RecipesListViewAdapter(this, frappe));
-                backLayout.setVisibility(View.VISIBLE);
-                bottomBorder.setVisibility(View.VISIBLE);
-                drawerListRecipes.setVisibility(View.VISIBLE);
-                drawerCategoriesList.setVisibility(View.GONE);
                 setTitle("Frappe");
                 break;
-
             case 3:
                 isRecipeList = true;
                 isWorld = true;
-                List<Recipe> world = new ArrayList<Recipe>();
-                for (int i = 0; i < recipeList.size(); i++) {
-                    recipe = recipeList.get(i);
-                    if (recipe.getType().equals("world")) {
-                        world.add(recipe);
-                    }
+                for (Recipe r : recipeList) {
+                    if ("world".equals(r.getType()))
+                        listToShow.add(r);
                 }
-                drawerListRecipes.setAdapter(new RecipesListViewAdapter(this, world));
-                backLayout.setVisibility(View.VISIBLE);
-                bottomBorder.setVisibility(View.VISIBLE);
-                drawerListRecipes.setVisibility(View.VISIBLE);
-                drawerCategoriesList.setVisibility(View.GONE);
                 setTitle("World Coffee");
                 break;
-
             case 4:
                 isRecipeList = true;
                 isExotic = true;
-                List<Recipe> exotic = new ArrayList<Recipe>();
-                for (int i = 0; i < recipeList.size(); i++) {
-                    recipe = recipeList.get(i);
-                    if (recipe.getType().equals("exotic")) {
-                        exotic.add(recipe);
-                    }
+                for (Recipe r : recipeList) {
+                    if ("exotic".equals(r.getType()))
+                        listToShow.add(r);
                 }
-                drawerListRecipes.setAdapter(new RecipesListViewAdapter(this, exotic));
-                backLayout.setVisibility(View.VISIBLE);
-                bottomBorder.setVisibility(View.VISIBLE);
-                drawerListRecipes.setVisibility(View.VISIBLE);
-                drawerCategoriesList.setVisibility(View.GONE);
                 setTitle("Exotic");
                 break;
-
             case 5:
                 isRecipeList = true;
                 isCocktail = true;
-                List<Recipe> cocktail = new ArrayList<Recipe>();
-                for (int i = 0; i < recipeList.size(); i++) {
-                    recipe = recipeList.get(i);
-                    if (recipe.getType().equals("cocktails")) {
-                        cocktail.add(recipe);
-                    }
+                for (Recipe r : recipeList) {
+                    if ("cocktails".equals(r.getType()))
+                        listToShow.add(r);
                 }
-                drawerListRecipes.setAdapter(new RecipesListViewAdapter(this, cocktail));
-                backLayout.setVisibility(View.VISIBLE);
-                bottomBorder.setVisibility(View.VISIBLE);
-                drawerListRecipes.setVisibility(View.VISIBLE);
-                drawerCategoriesList.setVisibility(View.GONE);
                 setTitle("Coffee Cocktail");
                 break;
-
             default:
                 break;
         }
+        drawerListRecipes.setAdapter(new RecipesListViewAdapter(this, listToShow));
+        backLayout.setVisibility(View.VISIBLE);
+        bottomBorder.setVisibility(View.VISIBLE);
+        drawerListRecipes.setVisibility(View.VISIBLE);
+        drawerCategoriesList.setVisibility(View.GONE);
     }
 
     private ArrayList<NavigationDrawerListModel> generateDataCategories() {
-        ArrayList<NavigationDrawerListModel> navItem = new ArrayList<NavigationDrawerListModel>();
+        ArrayList<NavigationDrawerListModel> navItem = new ArrayList<>();
         for (int i = 0; i < 6; i++) {
-            navItem.add(new NavigationDrawerListModel(drawerTitlesCategories[i], iconsCategories.getResourceId(i, -1), true));
+            navItem.add(new NavigationDrawerListModel(drawerTitlesCategories[i],
+                    iconsCategories.getResourceId(i, -1), true));
         }
         return navItem;
     }
@@ -615,21 +414,18 @@ public class MainActivity extends ActionBarActivity implements SearchView.OnQuer
     }
 
     private void setupSearchView() {
-
         filter = recipeAdapter.getFilter();
-
-        final SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
+        SearchManager searchManager = (SearchManager) getSystemService(Context.SEARCH_SERVICE);
         search.setSearchableInfo(searchManager.getSearchableInfo(getComponentName()));
         search.setSubmitButtonEnabled(false);
         search.setOnQueryTextListener(this);
         search.setIconified(true);
-
-        int searchSrcTextId = getResources().getIdentifier("android:id/search_src_text", null, null);
-        EditText searchEditText = (EditText) search.findViewById(searchSrcTextId);
-        searchEditText.setTextColor(Color.BLACK);
-        searchEditText.setHintTextColor(Color.DKGRAY);
-        searchEditText.setTypeface(customFont);
-        Drawable searchIcon = getApplicationContext().getResources().getDrawable(R.drawable.ic_action_search);
+      //  int searchSrcTextId = getResources().getIdentifier("android:id/search_src_text", null, null);
+     //   EditText searchEditText = search.findViewById(searchSrcTextId);
+//        searchEditText.setTextColor(Color.BLACK);
+      //  searchEditText.setHintTextColor(Color.DKGRAY);
+    //    searchEditText.setTypeface(customFont);
+        Drawable searchIcon = getResources().getDrawable(R.drawable.ic_action_search);
         searchIcon.setBounds(0, 0, 12, 12);
     }
 
@@ -679,11 +475,9 @@ public class MainActivity extends ActionBarActivity implements SearchView.OnQuer
         }
     }
 
-    private void setOnClick(AdapterView parent, int position) {
-        //get clicked item
+    private void openRecipeDetail(AdapterView<?> parent, int position) {
         Recipe clickedItem = (Recipe) parent.getAdapter().getItem(position);
         String jsonRecipe = new Gson().toJson(clickedItem, Recipe.class);
-        // make new activity
         Intent viewActivity = new Intent(MainActivity.this, RecipeViewActivity.class);
         viewActivity.putExtra("jsonRecipe", jsonRecipe);
         startActivity(viewActivity);

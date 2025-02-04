@@ -123,8 +123,6 @@ public class GridView extends android.widget.GridView implements OnScrollListene
         }
     }
 
-    ;
-
     public FixedViewInfo getHeaderView() {
         return mHeaderViewInfo;
     }

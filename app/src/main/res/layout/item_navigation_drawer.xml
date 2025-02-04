@@ -2,8 +2,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?android:attr/activatedBackgroundIndicator"
-    android:minHeight="?android:attr/listPreferredItemHeightSmall"
-    >
+    android:minHeight="?android:attr/listPreferredItemHeightSmall">
 
     <ImageView
         android:id="@+id/item_icon"
@@ -11,20 +10,18 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_centerInParent="true"
-        android:minHeight="?android:attr/listPreferredItemHeightSmall"
         android:layout_marginLeft="4dp"
-        />
+        android:minHeight="?android:attr/listPreferredItemHeightSmall" />
 
     <TextView
         android:id="@+id/item_title"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_toRightOf="@+id/item_icon"
         android:layout_centerInParent="true"
         android:layout_marginLeft="6dp"
+        android:layout_toRightOf="@+id/item_icon"
         android:fontFamily="sans-serif"
         android:textColor="@color/black_text"
-        android:textSize="@dimen/abc_text_size_small_material"
-        />
+        android:textSize="@dimen/abc_text_size_small_material" />
 
 </RelativeLayout>

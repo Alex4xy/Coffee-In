@@ -85,9 +85,7 @@ public class Recipe {
         if (getClass() != obj.getClass())
             return false;
         Recipe other = (Recipe) obj;
-        if (id != other.id)
-            return false;
-        return true;
+        return id == other.id;
 
     }
 }
